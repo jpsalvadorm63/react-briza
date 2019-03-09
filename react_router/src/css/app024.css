@@ -1,0 +1,39 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: -apple-system, sans-serif;
+    color: #111;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+}
+
+.links{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.link {
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+.link:hover{
+     opacity: 0.75;
+ }
+
+.link.active{
+    color: #000;
+    text-decoration: underline;
+}
+
+
