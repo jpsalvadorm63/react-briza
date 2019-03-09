@@ -10,7 +10,7 @@ const Child = ({match}) => (
     <h3>ID: {`${match.params.id}`}</h3>
 )
 
-const App11 = () => (
+const App011 = () => (
   <div className="App">
     <Router>
       <div>
@@ -22,10 +22,11 @@ const App11 = () => (
           <li><Link to={'/modus-create'}>Modus Create</Link></li>
         </ul>
 
+        <Route exact path={'/'} render={() => (<h3>Please Select an option</h3>)}/>
         <Route exact path={'/:id'} component={Child}/>
       </div>
     </Router>
   </div>
 )
 
-export default App11;
+export default App011;

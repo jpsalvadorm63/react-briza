@@ -22,7 +22,7 @@ Let's say we were Twitter and we were building the `Route` for the URL above.
 It may look something like this
 
 ```
-<Route path={`match.path/tweets`} component={Tweets} />
+<Route path={'match.path/tweets'} component={Tweets} />
 ```
 
 Notice at this point there's nothing new. We don't have to account for the

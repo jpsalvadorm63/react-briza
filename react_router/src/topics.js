@@ -1,4 +1,4 @@
-const topics = [
+export const topics = [
   {
     name: 'React Router',
     id: 'react-router',

@@ -29,7 +29,7 @@ const Topics = ({match}) => (console.log("=> url = ", match.url)) || (
 )
 const About = () => (<div><h2>About</h2></div>)
 
-const App02 = () => (
+const App002 = () => (
   <div className="App">
     <Router>
       <div>
@@ -47,4 +47,4 @@ const App02 = () => (
   </div>
 )
 
-export default App02;
+export default App002;
