@@ -1,4 +1,4 @@
-### Breathe
+## Breathe
 
 That was a lot of words to say that `TransitionGroup` renders all its new
 and old children after passing certian props to each based on if  they're
@@ -24,9 +24,19 @@ children have changed (entered or exited).
 >   I realize we're pretty deep in the weeds here. Stick with me, you're
 doing great
 
-Next we have the `CSSTransition` component. When you render a `TransitionGroup`, its direct children must either be a `CSSTransition` component or a `Transition` component (both come with the library).
+Next we have the `CSSTransition` component. When you render a 
+`TransitionGroup`, its direct children must either be a `CSSTransition` 
+component or a `Transition` component (both come with the library).
 
-What `CSSTransition` does is it takes the information it got from `TransitionGroup`, specifically if certain children are entering, leaving, or staying the same, and it applies a pair of class names to them during the ?appear?, ?enter?, and ?exit? stages of the transition based on their status. What this allows you to do is, based on those class names, have CSS in your app which will select the same class names that `CSSTransition` is applying and add some styles to those elements. For example, if we told `CSSTransition` to apply a `fade` class, our CSS might look like this
+What `CSSTransition` does is it takes the information it got from 
+`TransitionGroup`, specifically if certain children are entering, leaving, 
+or staying the same, and it applies a pair of class names to them during the 
+`appear`, `enter`, and `exit` stages of the transition based on their status. 
+What this allows you to do is, based on those class names, have 
+CSS in your app which will select the same class names that 
+`CSSTransition` is applying and add some styles to those elements. 
+For example, if we told `CSSTransition` to apply a `fade` class, our 
+CSS might look like this
 
 ```
 .fade-enter {
@@ -39,11 +49,15 @@ What `CSSTransition` does is it takes the information it got from `TransitionGro
   transition: opacity 250ms ease-in;
 }
 ```
-That way we?ll adjust the opacity of an element anytime it has a class name of `fade-enter` (which `CSSTransition` will apply for us).
+That way we'll adjust the opacity of an element anytime it has a class 
+name of `fade-enter` (which `CSSTransition` will apply for us).
 
-Alright now that we have our App set up and we understand a little bit more about React Transition Group, let?s join them.
+Alright now that we have our App set up and we understand a little bit more 
+about React Transition Group, let's join them.
 
-First, we know that we have to wrap everything that?s going to be animating inside of `TransitionGroup`. Since we?ll be animating our Switch component, let?s wrap it in `TransitionGroup`.
+First, we know that we have to wrap everything that's going to be animating 
+inside of `TransitionGroup`. Since we'll be animating our Switch component, 
+let's wrap it in `TransitionGroup`.
 
 ```
 ...
@@ -82,9 +96,20 @@ render() {
 }
 ```
 
-Now as we talked about earlier, `TransitionGroup` only gets us part of the way there; we also need to tie in `CSSTransition`. Just like we did with `TransitionGroup`, let?s go ahead and wrap our Switch inside of a `CSSTransition` component so we can specify some properties for how Switch will be animated. We?ll pass it two props, `timeout` and `className`. `timeout` specifies how long TransitionGroup will display all of its `children` before removing the old `children` (aka how long the animation will take place). `className` is the className that is applied to the component as it enters or exits.
+Now as we talked about earlier, `TransitionGroup` only gets us part of the way 
+there; we also need to tie in `CSSTransition`. Just like we did with 
+`TransitionGroup`, let's go ahead and wrap our Switch inside of a 
+`CSSTransition` component so we can specify some properties for how 
+`Switch` will be animated. We'll pass it two props, `timeout` and `className`.
+`timeout` specifies how long TransitionGroup will display all of its `children` 
+before removing the old `children` (aka how long the animation will take 
+place). `className` is the className that is applied to the component as 
+it enters or exits.
 
->   For example, if you provide a `className` of fade, then the following classes will be added to the component during its animation lifecycle - `fade-enter`, `fade-enter-active`, `fade-exit`, `fade-exit-active`, `fade-appear`, and `fade-appear-active`.
+>   For example, if you provide a `className` of fade, then the following
+classes will be added to the component during its animation lifecycle - 
+`fade-enter`, `fade-enter-active`, `fade-exit`, `fade-exit-active`, `fade-appear`, 
+and `fade-appear-active`.
 
 ```
 ...
@@ -128,7 +153,7 @@ render() {
 }
 ```
 
-Now, because we?ve applied the `className` of `fade`, we need to add some
+Now, because we've applied the `className` of `fade`, we need to add some
 CSS that will do the animation for us. Wherever your CSS is located, add
 the following CSS so we can animated the opacity.
 
@@ -144,12 +169,12 @@ the following CSS so we can animated the opacity.
 }
 ```
 
-And?! It doesn?t work.
+And! It doesn't work.
 
 Remember earlier when we talked about how `TransitionGroup` keeps track
-of its children? Because we didn?t give `CSSTransition` a unique key,
+of its children? Because we didn't give `CSSTransition` a unique key,
 whenever we switch routes, `TransitionGroup` just assumes nothing happened
-since none of its children?s keys changed.
+since none of its children's keys changed.
 
 Now the question is, what should we use for a unique key? Well, what is
 the thing that is changing in the app? It's the app's location. So ideally,
@@ -205,11 +230,11 @@ render() {
 ```
 
 now we have access to a unique key value in `location.key` and we pass
-that as a key prop to `CSSTransition`. And with that, we?re done!
+that as a key prop to `CSSTransition`. And with that, we're done!
 
 >   Just kidding
 
-You?re so close! Pinky promise.
+You're so close! Pinky promise.
 
 If you run the app as it currently is, you?ll notice that everything
 seems to be working fine. When you navigate to a new link, for 300ms

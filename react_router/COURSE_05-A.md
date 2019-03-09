@@ -1,6 +1,6 @@
-# React Router | 05 - A
+* React Router | 05 - A
 
-## Animated Transitions with React Router
+# Animated Transitions with React Router
 
 If you're reading this you've probably discovered that React Router doesn't
 come with a solution for animated transitions out of the box. That ties
@@ -9,7 +9,7 @@ can build on and trusts you can figure out the rest. Because every app has
 different needs, this approach is typically the safest. The downside of
 this is that it'll take some extra work to get the exact functionality
 you want. The tool we'll be using alongside React Router in this post is
-“React Transition Group.” React Transition Group in an animation library
+"React Transition Group". **React Transition Group** _in an animation library_
 that gives us a way to perform animations when a React component enters
 or leaves the DOM, which paired with React Router, is exactly what we
 want.
@@ -20,8 +20,8 @@ free to skip ahead if you'd like.
 
 First, let's walk through the type of app we're going to be building.
 Animations aside, the goal is to make it so the user can go to `/hsl/:h/:s/:l`
-or `/rgb/:r/:g/:b` and see the associated HSL or RGB color for those specific
-values.
+or `/rgb/:r/:g/:b` and see the associated `HSL` or `RGB` color for those
+specific values.
 
 * **Example with an RGB color**
 
@@ -41,10 +41,10 @@ things before we even start looking at animated transitions.
 
 1. An app skeleton
 2. A navbar
-3. A component to render when the path matches “/rgb/:r/:g/:b”
-4. Another component to render when the path matches “/hsl/:h/:s/:l”
+3. A component to render when the path matches "/rgb/:r/:g/:b"
+4. Another component to render when the path matches "/hsl/:h/:s/:l"
 5. Some "Route"s which are going to render the components we create in
-steps #4 and #5.
+steps #3 and #4.
 
 Let's start off tackling #1. We'll create a very basic component which
 renders a Router and has some styles applied to the main `div` so the
@@ -86,8 +86,8 @@ styles.fill = {
 
 Cool. So our app really isn't doing anything yet. Next, let's move to the
 navbar. It should be pretty straight forward. We'll have four Link
-components linking us between Red (/hsl/10/90/50), Green
-(/hsl/120/100/40), Blue (`/rgb/33/150/243`), and Pink
+components linking us between Red (`/hsl/10/90/50`), Green
+(`/hsl/120/100/40`), Blue (`/rgb/33/150/243`), and Pink
 (`/rgb/240/98/146`).
 
 ```
@@ -203,7 +203,7 @@ styles.hsl  = {
 
 Now that we have our app skeleton, the navbar, the `RGB` and `HSL` components,
 and some styling, the next thing we need to do is actually render some
-`Route's so that when the path matches, the appropriate components will
+`Route`s so that when the path matches, the appropriate components will
 get rendered. Because we're going to have a "catch all" route, we'll go
 ahead and throw our Routes inside of a Switch component. (For more info
 on "catch all" routes, visit
@@ -242,10 +242,10 @@ styles.content = {
 }
 ```
 
-Beautiful. At this point, using our navbar we can successfully navigate
+Beautiful. At this point, using our `navbar` we can successfully navigate
 between those four different routes. Our `HSL` and `RGB` components are
 correctly parsing the `URL` parameters and the background we see is the
-associated rgb/hsl color.
+associated `rgb`/`hsl` color.
 
 Before we finally get to animated transitions, there's one more addition
 I want to make. Our app is currently structured so that we only have four
@@ -275,8 +275,8 @@ For more info on the Redirect component, visit
 Finaly! It's the moment you've been waiting for. Let's look at how to
 animate the transitions between our routes.
 
-The first thing we need to do is take a look into how React Transition
-Group works. Like React Router, it has a component based API. The two
+The first thing we need to do is take a look into how `React Transition
+Group` works. Like React Router, it has a component based API. The two
 components we'll be using from it are `TransitionGroup` and `CSSTransition`.
 
 First, let's look at `TransitionGroup`. The way you use `TransitionGroup`
