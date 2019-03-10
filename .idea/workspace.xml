@@ -157,13 +157,6 @@
               <item name="react_router" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDL" type="462c0819:PsiDirectoryNode" />
-              <item name="react_router" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="App024" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -238,16 +231,15 @@
       <workItem from="1552108306261" duration="7353000" />
       <workItem from="1552137892573" duration="9259000" />
       <workItem from="1552163713634" duration="8266000" />
-      <workItem from="1552228492065" duration="5649000" />
+      <workItem from="1552228492065" duration="5899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188323000" />
+    <option name="totallyTimeSpent" value="188573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="867" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26159793" />
       <window_info anchor="bottom" id="TODO" order="6" />
