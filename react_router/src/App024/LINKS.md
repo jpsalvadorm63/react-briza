@@ -4,3 +4,4 @@
 * [Hook state](https://reactjs.org/docs/hooks-state.html)
 * [Hook state](https://reactjs.org/docs/hooks-effect.html)
 * [History .push vs .replace](https://stackoverflow.com/questions/39340108/what-is-the-trade-off-between-history-push-and-replace)
+* [Replace lifecycle with hooks in React](https://dev.to/trentyang/replace-lifecycle-with-hooks-in-react-3d4n)

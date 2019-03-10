@@ -15,6 +15,7 @@ import About from "./About"
 import Contact from "./Contact"
 import Admin from "./Admin"
 import Login from "./Login"
+import Reducer from "./Reducer"
 
 // application state
 let appState = {
@@ -29,6 +30,7 @@ const NavLinks = () => {
     <div className="links">
       <NavLink exact to="/" className="link" activeClassName="active">Home</NavLink>
       <NavLink to="/about?all=A&nothing=B" className="link">About</NavLink>
+      <NavLink to="/reducer" className="link">Reducer</NavLink>
       <NavLink to="/contact" className="link">Contact Us</NavLink>
       <NavLink to="/admin" className="link">Admin</NavLink>
     </div>
@@ -41,6 +43,7 @@ const Routers = () => {
       <Switch>
         <Route exact={true} path="/" component={Home}/>
         <Route path="/about" component={About}/>
+        <Route path="/reducer" component={Reducer}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/admin" render={() => <Admin appState={appState} />} />
         <Route path="/login" render={() => <Login appState={appState} />} />
