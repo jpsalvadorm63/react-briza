@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b60d84c-1444-47c5-acbe-85b7b48b1dbd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/react_redux/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/About/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/About/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/About/widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/Contact/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/Contact/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/Contact/widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/Home/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/Home/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/Home/widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/Login/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/Logout/Logout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/_APP/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/_APP/middlewares.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/_APP/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/_APP/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/_APP/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/_APP/widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/_CSS/app024.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/components/_UTILS/_api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_redux/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_router/LINKS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_router/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_capela/DEMO004-original.html" beforeDir="false" afterPath="$PROJECT_DIR$/a_capela/DEMO004-original.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_capela/DEMO004.html" beforeDir="false" afterPath="$PROJECT_DIR$/a_capela/DEMO004.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_capela/DEMO004.md" beforeDir="false" afterPath="$PROJECT_DIR$/a_capela/DEMO004.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react_mdl" beforeDir="false" afterPath="$PROJECT_DIR$/react_mdl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/COURSE_01.md" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/COURSE_01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/COURSE_02.md" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/COURSE_02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/COURSE_03.md" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/COURSE_03.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/COURSE_04.md" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/COURSE_04.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/COURSE_09.md" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/COURSE_09.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/COURSE_10.md" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/COURSE_10.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/src/App024/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/src/App024/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/src/App024/App024.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/src/App024/App024.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,11 +38,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="store.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react_redux/src/components/About/store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-427">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="314">
+                <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -138,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react_router/COURSE_01.md" />
         <option value="$PROJECT_DIR$/react_router/src/App025/styles.js" />
         <option value="$PROJECT_DIR$/react_router/src/css/app024.css" />
         <option value="$PROJECT_DIR$/react_router/src/App025/NavLink.js" />
@@ -189,6 +163,7 @@
         <option value="$PROJECT_DIR$/react_redux/src/components/Contact/api.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/Contact/widget.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/Contact/store.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -228,35 +203,6 @@
               <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
               <item name="MDL" type="462c0819:PsiDirectoryNode" />
               <item name="react_redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDL" type="462c0819:PsiDirectoryNode" />
-              <item name="react_redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDL" type="462c0819:PsiDirectoryNode" />
-              <item name="react_redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDL" type="462c0819:PsiDirectoryNode" />
-              <item name="react_redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="About" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDL" type="462c0819:PsiDirectoryNode" />
-              <item name="react_redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Contact" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,12 +302,12 @@
       <workItem from="1553038347395" duration="1379000" />
       <workItem from="1553091847582" duration="35265000" />
       <workItem from="1553215116538" duration="36936000" />
-      <workItem from="1553872576865" duration="712000" />
+      <workItem from="1553872576865" duration="928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318449000" />
+    <option name="totallyTimeSpent" value="318665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="867" extended-state="0" />
@@ -374,7 +320,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292517" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.496134" visible="true" weight="0.19319728" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.496134" visible="true" weight="0.35918367" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -422,13 +368,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react_redux/src/components/Contact/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_redux/src/components/About/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -794,8 +733,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react_redux/src/components/About/store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="-427">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="314">
+            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
