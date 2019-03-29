@@ -24,7 +24,7 @@
 </html>
 ```
 
-## Step 2 - Create the `style.css` file
+## Step 2 - Create the `style._CSS` file
 
 ```
 img {
@@ -64,7 +64,7 @@ ul {
 </html>
 ```
 
-#### the `style.css` part
+#### the `style._CSS` part
 
 ```
 /* HEADER */
@@ -109,7 +109,7 @@ ul {
 </html>
 ```
 
-#### the `style.css` part
+#### the `style._CSS` part
 
 ```
 /* DRAWER */
@@ -237,7 +237,7 @@ ul {
 </html>
 ```
 
-#### the `style.css` part
+#### the `style._CSS` part
 
 ```
 /* HERO SECTION */
@@ -347,7 +347,7 @@ ul {
 </html>
 ```
 
-#### the `style.css` part
+#### the `style._CSS` part
 
 ```css
 /* INTRO SECTION */
@@ -442,7 +442,7 @@ ul {
 </html>
 ```
 
-#### the `style.css` part
+#### the `style._CSS` part
 
 ```
 /* TESTIMONIAL */
@@ -550,7 +550,7 @@ ul {
 </html>
 ```
 
-#### the `style.css` part
+#### the `style._CSS` part
 
 ```
 /* CARDS SECTION */
@@ -673,7 +673,7 @@ ul {
 </html>
 ```
 
-#### the `style.css` part
+#### the `style._CSS` part
 
 ```
 /* CONTACT */

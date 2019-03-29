@@ -1,11 +1,6 @@
 import React from 'react'
 import queryString from 'query-string'
 
-const initialState = {
-  loading: false,
-  count: 0,
-}
-
 const About = (props) => {
   const values = queryString.parse(props.location.search)
   return (

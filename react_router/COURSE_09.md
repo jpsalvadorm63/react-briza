@@ -216,7 +216,7 @@ it in some HTML structure.
 3. A React app which is going to pick up from where the server rendered HTML 
 left off and add in any event listeners to the existing markup where needed.
 
-We can handle #1 pretty easily. Let's make an App.js component inside of the 
+We can handle #1 pretty easily. Let's make an widget.js component inside of the
 ´shared´ folder and have it render “Hello World”. 
 
 ```
@@ -606,7 +606,7 @@ shared folder called routes.js. We're going to represent our routes as an array
 of objects. Each object representing a new route. Eventually we'll map over 
 our routes array and create a `<Route>` for each item. In the case of our app, 
 we'll have two routes - / and /popular/:id. / will render the (soon to be 
-created) Home component and /popular/:id will render our Grid component.
+created) Widget component and /popular/:id will render our Grid component.
 
 ```
 // shared/routes.js
@@ -628,7 +628,7 @@ const routes =  [
 export default routes
 ```
 
-Before we continue, let's hurry and create the Home component.
+Before we continue, let's hurry and create the Widget component.
 
 ```
 // shared/Home.js
@@ -944,7 +944,7 @@ export default App
 ```
 
 Looking good. If we go to the `/` route, we'll get the `Navbar` and
-the Home components as expected, but, if we click on one of the `Link`s
+the Widget components as expected, but, if we click on one of the `Link`s
 we get an error - `Cannot read property 'map' of undefined`.
 
 Essentially what's happening is before, we were passing `data` as a prop

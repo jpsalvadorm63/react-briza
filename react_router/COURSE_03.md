@@ -329,7 +329,7 @@ const App = () => {
 export default App
 ```
 
-### the 'Home' component, `Home.js`
+### the 'Home' component, `Widgetet.js`
 
 ```
 import React from 'react';
@@ -339,7 +339,7 @@ const Home = () => <h1>Home Component ...</h1>
 export default Home
 ```
 
-### the 'About' component, `About.js`
+### the 'About' component, `Widgett.js`
 
 ```
 import React from 'react';

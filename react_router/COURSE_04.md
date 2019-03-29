@@ -118,7 +118,7 @@ export default App
 ```
 
 Now that we have the navbar set up, let's create three different components
-to render - `Home.js`, which will match on `/`, `WillMatch` which will match on
+to render - `Widgetet.js`, which will match on `/`, `WillMatch` which will match on
  `/will-match`, and `NoMatch`, which will be the catch all component which will
  render if none of the other route's match.
 
@@ -139,7 +139,7 @@ const NoMatch = ({ location }) => (
 ```
 
 Now that we have the components which are going to be rendered, we need to
-actually render some `Routes`. `Home.js` and `WillMatch` are straight forward.
+actually render some `Routes`. `Widgetet.js` and `WillMatch` are straight forward.
 They just get rendered as they normall would.
 
 ```
@@ -171,7 +171,7 @@ rendered `NoMatch` at the end of our routes?
 <Route component={NoMatch} />
 ```
 
-Ok, cool. But it still doesn't work. Now the app renders the `Home.js` and `WillMatch`
+Ok, cool. But it still doesn't work. Now the app renders the `widget.jsjs` and `WillMatch`
 components properly but it also always renders the `NoMatch` component no matter
 what path we're on, because the `Route` has no `path`, and if it has no `path`, it will
 always be rendered…

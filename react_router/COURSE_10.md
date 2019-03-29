@@ -15,7 +15,7 @@ is three words.
 >   Cannot GET /dashboard
 
 "Probably a hot module replacement issue. Just an anomaly" - you optimistically convince 
-yourself. To validate your assumption you restart the app. "Home page looks good. Navigating 
+yourself. To validate your assumption you restart the app. "Widget page looks good. Navigating 
 works fine. Let’s try refresh again."
 
 >   Cannot GET /settings

@@ -180,7 +180,7 @@ export default App
 Next we have Route. Route is both the backbone and the genius behind React 
 Router v4. When the app’s location matches a certain path, Route will render 
 a specified component, when it doesn’t, it will render null. So say for example 
-we had a Home.js component that we wanted to render when our app was at 
+we had a widget.jsjs component that we wanted to render when our app was at 
 the index path `/`. Our code would look something like this
 
 ```
@@ -211,7 +211,7 @@ export default App
 ```
 
 With the code above, if were were at the index page (`/`), we would see the 
-`Home.js` component. If we weren’t, we wouldn’t see anything (because 
+`Widgetet.js` component. If we weren’t, we wouldn’t see anything (because 
 Route would have rendered null).
 
 Let’s add a few more routes now.
@@ -270,9 +270,9 @@ will either render the component or just render `null`.
 
 So far, so good. One caveat that you might not have seen from the above code 
 is that right now if you run the app and you head to the `/about` path, you’ll notice 
-that both the About component and the Home.js component are rendered. 
+that both the Widget component and the widget.jsjs component are rendered.
 This is because even though / doesn’t match the location exactly, it’s still considered 
-a partial match so the Home.js component is rendered. To get around this, you 
+a partial match so the Widgetet.js component is rendered. To get around this, you 
 simply need to add an exact prop to the / Route to specify that you only want it 
 to match when the location matches exactly.
 

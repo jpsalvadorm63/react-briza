@@ -54,7 +54,7 @@ const Routers = () => {
 }
 
 // application entry component
-const App = () => {
+const App = (props) => {
   return(
     <Router>
       <div>

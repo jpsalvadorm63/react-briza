@@ -92,7 +92,7 @@ end up looking like this:
 
 Before we start worrying about nested routes, let's first create the skeleton
 of our app including the navbar which will allow us to navigate between
-`Home.js` (`/`) and `Topics` (`/topics`).
+`widget.jsjs` (`/`) and `Topics` (`/topics`).
 
 ```
 import React, { Component } from 'react'
@@ -123,7 +123,7 @@ export default App
 That's a solid start. Now what we want to do is render a few `<Route>`s so
 that the UI will change based on the current path we're on. However, before
 we can do that, we need to go ahead and build out the components that we'll
-pass to our `<Route>`s to render if there's a match. - we'll call them `Home.js`
+pass to our `<Route>`s to render if there's a match. - we'll call them `widget.jsjs`
 and `Topics`. For now, while we get things set up, let's just have both of
 them render a header which says either `HOME` or `TOPICS`.
 
@@ -146,10 +146,10 @@ function Home () {
 ```
 
 Perfect. Now, we'll use the <Route> component to tell React Router that whenever
-someone is on `/`, it should render the Home.js component and whenever someone
+someone is on `/`, it should render the widget.jsjs component and whenever someone
 is on `/topics`, it should render the `Topics` component.
 
-If we're at /, we'll see the navbar and the Home.js component. If we're at `/topics`,
+If we're at /, we'll see the navbar and the widget.jsjs component. If we're at `/topics`,
 we'll see the navbar and the `Topics` component.
 
 Finally we have a good enough fountaion to start talking about how we go
