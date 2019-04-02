@@ -5,16 +5,16 @@ import { handleTestAboutSignal } from "./store"
 
 // widget
 const About = (props) => {
-  const {dispatch} = props
+  const {dispatch, selectedOffice} = props
   const {msg} = props.componentInfo
   const {counter} = props
+
+  const office = selectedOffice.length > 0 ? ` - ${selectedOffice} office` : ""
 
   useEffect(
     () => {
       dispatch(handleTestAboutSignal())
-      return () => {
-        // console.log("- - - - bye About")
-      }
+      return () => {}
     },[]
   );
 
@@ -22,10 +22,15 @@ const About = (props) => {
     <div className="App">
       <div>
         <h1>ABOUT</h1>
-        <div>{`${msg} :: ${counter}`}</div>
+        <div>{`${msg} :: ${counter} ${office}`}</div>
       </div>
     </div>
   )
 }
 
-export default connect((state) => ({...state.stateAbout}))(About)
+export default connect(
+  (state) => ({
+    ...state.stateAbout,
+    selectedOffice: state.stateContact.selectedOffice
+  })
+)(About)

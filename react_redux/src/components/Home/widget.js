@@ -7,16 +7,16 @@ import {
 
 // Widget
 const MainApp = (props) => {
-  const {dispatch} = props
+  const {dispatch, selectedOffice} = props
   const {msg} = props.componentInfo
   const {counter} = props
+
+  const office = selectedOffice.length > 0 ? ` - ${selectedOffice} office` : ""
 
   useEffect(
     () => {
       dispatch(handleTestHomeSignal())
-      return () => {
-        // console.log("- - - - bye Home")
-      }
+      return () => {}
     },[]
   );
 
@@ -24,10 +24,15 @@ const MainApp = (props) => {
     <div className="App">
       <div>
         <h1>HOME</h1>
-        <div>{`${msg} :: ${counter}`}</div>
+        <div>{`${msg} :: ${counter} ${office}`}</div>
       </div>
     </div>
   )
 }
 
-export default connect((state) => ({...state.stateHome}))(MainApp)
+export default connect(
+  (state) => ({
+    ...state.stateHome,
+    selectedOffice: state.stateContact.selectedOffice
+  })
+)(MainApp)

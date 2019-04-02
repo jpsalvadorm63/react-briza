@@ -53,13 +53,13 @@ const testAboutSignal = (signal) => {
     type: TEST_ABOUT_SIGNAL,
     componentSignal:signal
   }
-};
+}
 
 const incrementAboutCounter = () => {
   return {
     type: INCREMENT_ABOUT_COUNTER
   }
-};
+}
 
 // Thunks
 export const handleTestAboutSignal = () => {

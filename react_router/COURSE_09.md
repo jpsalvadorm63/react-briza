@@ -216,7 +216,7 @@ it in some HTML structure.
 3. A React app which is going to pick up from where the server rendered HTML 
 left off and add in any event listeners to the existing markup where needed.
 
-We can handle #1 pretty easily. Let's make an widget.js component inside of the
+We can handle #1 pretty easily. Let's make an ContactsWidget.js component inside of the
 ´shared´ folder and have it render “Hello World”. 
 
 ```

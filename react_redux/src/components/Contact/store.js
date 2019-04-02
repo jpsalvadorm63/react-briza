@@ -4,6 +4,7 @@ import API from "./api"
 const componentName = "Contact"
 const version = 0.1
 const state0 = {
+  selectedOffice: "",
 
   //////////////////////////////////////////////////////////////
   componentInfo: {
@@ -17,10 +18,16 @@ const state0 = {
 // Actions
 export const TEST_CONTACT_SIGNAL = "TEST_CONTACT_SIGNAL"
 export const INCREMENT_CONTACT_COUNTER = "INCREMENT_CONTACT_COUNTER"
+export const SELECTED_OFFICE = "SELECTED_OFFICE"
 
 // Reducer
 export const reducer = ( state = state0, action ) => {
   switch(action.type) {
+    case SELECTED_OFFICE :
+      return {
+        ...state,
+        selectedOffice: action.selectedOffice
+      }
     case TEST_CONTACT_SIGNAL :
       const componentInfo = {...state.componentInfo,msg: action.componentSignal}
       const counter = state.counter + 1
@@ -48,6 +55,13 @@ export const logger = (store) => (next) => (action) => {
 }
 
 // Action creators
+const selectedOffice = (selectedOffice) =>  {
+  return {
+    type: SELECTED_OFFICE,
+    selectedOffice: selectedOffice
+  }
+}
+
 const testSignal = (signal) => {
   return {
     type: TEST_CONTACT_SIGNAL,
@@ -62,6 +76,12 @@ const incrementCounter = () => {
 };
 
 // Thunks
+export const handleSelectedOffice = (office) => {
+  return (dispatch) => {
+    dispatch(selectedOffice(office))
+  }
+}
+
 export const handleTestContactSignal = () => {
   return (dispatch) => {
     return Promise.all([
