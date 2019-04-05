@@ -6,7 +6,7 @@ import {
 } from "./store"
 
 // Widget
-const MainApp = (props) => {
+const Home = (props) => {
   const {dispatch, selectedOffice} = props
   const {msg} = props.componentInfo
   const {counter} = props
@@ -33,6 +33,7 @@ const MainApp = (props) => {
 export default connect(
   (state) => ({
     ...state.stateHome,
-    selectedOffice: state.stateContact.selectedOffice
+    selectedOffice: state.stateContact.selectedOffice,
+    lgnInf:state.stateLoginForm.lgnInf
   })
-)(MainApp)
+)(Home)

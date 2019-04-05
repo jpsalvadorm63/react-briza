@@ -13,6 +13,8 @@ const Contact = (props) => {
   const {msg} = props.componentInfo
   const {counter} = props
 
+  const office = selectedOffice.length > 0 ? ` - ${selectedOffice} office` : ""
+
   useEffect(
     () => {
       dispatch(handleTestContactSignal())
@@ -26,7 +28,7 @@ const Contact = (props) => {
     <div className="App">
       <div>
         <h1>CONTACT</h1>
-        <div>{`${msg} :: ${counter}`}</div>
+        <div>{`${msg} :: ${counter}${office}`}</div>
         <Contacts selectedOffice={selectedOffice}/>
       </div>
     </div>

@@ -14,18 +14,21 @@ import "../_CSS/app024.css"
 import Home from "../Home/widget"
 import About from "../About/widget"
 import Contact from "../Contact/widget"
-// import Login from "../Login/Login"
-// import Logout from "../Logout/Logout"
+import LoginForm from "../LoginForm/widget"
 
 
 // NavLinks & Routers
-const NavLinks = () => {
+const NavLinks = (props) => {
   return(
     <div className="links">
       <NavLink exact to="/" className="link" activeClassName="active">Home</NavLink>
       <NavLink to="/about" className="link">About</NavLink>
       <NavLink to="/contact" className="link">Contact Us</NavLink>
-      {/*<NavLink to="/admin" className="link">Admin</NavLink>*/}
+      {
+        props.lgnInf.email.length > 0 ?
+        <span><NavLink to="/Login" className="link">Logout</NavLink> {props.lgnInf.email}</span>:
+        <NavLink to="/Login" className="link">Login</NavLink>
+      }
     </div>
   )
 }
@@ -37,8 +40,7 @@ const Routers = () => {
         <Route exact={true} path="/" component={Home}/>
         <Route path="/about" component={About}/>
         <Route path="/contact" component={Contact}/>
-        {/*<Route path="/admin" render={() => <Admin appState={appState} />} />*/}
-        {/*<Route path="/login" render={() => <Login appState={appState} />} />*/}
+        <Route path="/login" component={LoginForm}/>
         <Route render={() => <h1>404 Error</h1>} />
       </Switch>
     </div>
@@ -46,9 +48,8 @@ const Routers = () => {
 }
 
 const MainApp = (props) => {
-  const {dispatch} = props
+  const {dispatch, counter, lgnInf} = props
   const {msg} = props.componentInfo
-  const {counter} = props
 
   useEffect(
     () => {
@@ -63,7 +64,7 @@ const MainApp = (props) => {
     <div className="App">
       <Router>
         <div>
-          <NavLinks />
+          <NavLinks lgnInf={lgnInf}/>
           <Routers />
           <div>{`${msg} :: ${counter}`}</div>
         </div>
@@ -72,4 +73,8 @@ const MainApp = (props) => {
   )
 }
 
-export default connect((state) => ({...state.stateApp}))(MainApp)
+export default connect(
+  (state) => ({
+    ...state.stateApp,
+    lgnInf:state.stateLoginForm.lgnInf
+  }))(MainApp)

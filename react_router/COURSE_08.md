@@ -64,7 +64,7 @@ With that in mind, it would make sense that the "React way" of
 preventing transitions follows that same paradigm - a declarative 
 component we can render (or not) based off of the component's state.
 
-First, as mentioned, let's add some state to the `Form` component. The goal
+First, as mentioned, let's add some state to the `Login` component. The goal
 here is to have some state which knows if the form is "dirty" (meaning 
 the length of the value in the input field is > 0).
 
