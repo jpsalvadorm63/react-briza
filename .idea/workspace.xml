@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b60d84c-1444-47c5-acbe-85b7b48b1dbd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/LINK.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/App2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myredux/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myredux/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myredux/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/myredux/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GIT-COMMANDS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react_mdl" beforeDir="false" afterPath="$PROJECT_DIR$/react_mdl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_redux/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react_redux/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_redux/src/components/LoginForm/widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_redux/src/components/LoginForm/widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_redux/src/components/_APP/widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_redux/src/components/_APP/widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_redux/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_redux/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/COURSE_02.md" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/COURSE_02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/COURSE_03.md" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/COURSE_03.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/COURSE_05-B.md" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/COURSE_05-B.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/COURSE_06.md" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/COURSE_06.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_router/COURSE_09.md" beforeDir="false" afterPath="$PROJECT_DIR$/react_router/COURSE_09.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,14 +27,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WidgetLogin.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WidgetLogin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetLogin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-391">
               <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="204">
+                <caret line="12" selection-start-line="12" selection-end-line="12" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GIT-COMMANDS.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GIT-COMMANDS.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="14" selection-start-column="14" selection-end-column="14" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -121,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react_redux/src/components/About/About.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/Home/Home.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/_APP/store.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/About/_api.js" />
@@ -130,7 +142,6 @@
         <option value="$PROJECT_DIR$/react_redux/src/components/About/api.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/Home/api.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/Contact/api.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/react_redux/src/components/About/store.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/Contact/styles.css" />
         <option value="$PROJECT_DIR$/react_redux/src/components/Contact/styles.js" />
@@ -172,6 +183,8 @@
         <option value="$PROJECT_DIR$/react-semantic-ui-example/src/Login/Widget.js" />
         <option value="$PROJECT_DIR$/react-semantic-ui-example/src/Login/api.js" />
         <option value="$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetLogin.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/GIT-COMMANDS.md" />
       </list>
     </option>
   </component>
@@ -202,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,19 +227,6 @@
               <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
               <item name="MDL" type="462c0819:PsiDirectoryNode" />
               <item name="react-semantic-ui-example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDL" type="462c0819:PsiDirectoryNode" />
-              <item name="react-semantic-ui-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDL" type="462c0819:PsiDirectoryNode" />
-              <item name="react-semantic-ui-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
@@ -257,7 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,23 +363,25 @@
       <workItem from="1554766963910" duration="12673000" />
       <workItem from="1554787262567" duration="779000" />
       <workItem from="1554814303778" duration="80000" />
+      <workItem from="1554814415176" duration="1252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="474399000" />
+    <option name="totallyTimeSpent" value="475651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="867" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3234536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3234536" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5064433" side_tool="true" weight="0.35782313" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292517" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3292517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4935567" visible="true" weight="0.30884352" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4935567" visible="true" weight="0.307483" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -394,19 +396,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2719072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3292517" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3265306" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.496134" visible="true" weight="0.26603" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50386596" side_tool="true" weight="0.20680273" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3265306" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3292517" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -434,16 +436,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetLogin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/Login/api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -663,18 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="365">
-            <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="25" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/semantic/LINK.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -700,9 +680,6 @@
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -769,13 +746,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetLogin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="-391">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIT-COMMANDS.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="14" selection-start-column="14" selection-end-column="14" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
