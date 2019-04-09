@@ -412,7 +412,7 @@ const Admin = ({appState, history}) => {
 export default withRouter(Admin)
 ```
 
-### the 'Login' component, `Login.js`
+### the 'Login' component, `WidgetLogin.js`
 
 ```
 import React, { useState, useEffect } from "react"

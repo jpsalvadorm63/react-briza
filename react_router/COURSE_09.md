@@ -66,7 +66,7 @@ the server (#2 above) needs to be identical to what is rendered on the
 client (#3). If not, React will throw a warning.
 
 As always when dealing with React, we're going to need to talk about webpack 
-at some point. We're not going to use Create React App so we'll have to roll 
+at some point. We're not going to use Create React Widget so we'll have to roll
 our own configuration. For the sake of keeping this tutorial as focused as 
 possible, I'll paste the `webpack.config.js` file and the `package.json` below 
 then highlight the important parts. 
@@ -264,7 +264,7 @@ app.listen(3000, () => {
 ```
 
 Now we want to make it so anytime our server receives a `GET` request, 
-we send back the HTML skeleton  along with the markup from our `App` 
+we send back the HTML skeleton  along with the markup from our `Widget`
 component inside of it. To do this, we'll use React's `renderToString` 
 method. What this does is it takes in a React element and returns an 
 HTML string.
@@ -320,7 +320,7 @@ our `bundle.js` file which contains all of our client code.
 ```
 
 Now whenever a GET request is made to our server, we'll get some HTML 
-back which includes our `<App />` component and a link to our 
+back which includes our `<Widget />` component and a link to our
 `bundle.js` file. 
 
 >   #3. A React app which is going to pick up from where the server 
@@ -367,9 +367,9 @@ class App extends Component {
 }
 ```
 
-Now whenever we create our App element, we need to pass it a data prop - React 101.
+Now whenever we create our Widget element, we need to pass it a data prop - React 101.
 
-Where are we creating the App element? There are two places. The first place is inside of server/index.js for when we server render and the second is inside of browser/index.js for when the browser picks it up. Let's modify both of those and add a data prop of Tyler.
+Where are we creating the Widget element? There are two places. The first place is inside of server/index.js for when we server render and the second is inside of browser/index.js for when the browser picks it up. Let's modify both of those and add a data prop of Tyler.
 
 ```
 // browser/index.js
@@ -418,7 +418,7 @@ expensive.
 
 When you're just rendering a component with no data, it's not difficult 
 to have the server rendered and client rendered content be identical - 
-as we saw when we just rendered `<App />`. When you add in data, it gets a 
+as we saw when we just rendered `<Widget />`. When you add in data, it gets a
 little more complex. You need to make sure that the component is rendered 
 with the same `data` (or props) on both the client and server. Let's take a 
 look at how we'd do that (without hard coding the data prop on the server 
@@ -539,8 +539,8 @@ app.get("*", (req, res, next) => {
 ```
 
 Now when a request is made we're getting the data we need, but we also want 
-to modify the App component to be able to properly handle that new data. 
-Instead of handling it in App, let's make a new component called Grid that 
+to modify the Widget component to be able to properly handle that new data.
+Instead of handling it in Widget, let's make a new component called Grid that
 deals with mapping over all the repos.
 
 ```
@@ -785,7 +785,7 @@ language from the path then calling fetchPopularRepos with that language.
 
 Now that we're fetching the correct data on our server based on the route the user requested, let's add in some client side routing as well.
 
-As always, we need to wrap our main component (App) inside of React Router's BrowserRouter component on the client. We'll do that inside of browser/index.js since that's where we're rendering App.
+As always, we need to wrap our main component (Widget) inside of React Router's BrowserRouter component on the client. We'll do that inside of browser/index.js since that's where we're rendering Widget.
 
 ```
 import React from 'react'
@@ -858,7 +858,7 @@ class App extends Component {
 
 Before we move on, let's add a `Navbar` and a
 [catch all - 404](https://tylermcginnis.com/react-router-handling-404-pages/)
-route to our App.
+route to our Widget.
 
 ```
 // shared/Navbar.js
@@ -948,8 +948,8 @@ the Widget components as expected, but, if we click on one of the `Link`s
 we get an error - `Cannot read property 'map' of undefined`.
 
 Essentially what's happening is before, we were passing `data` as a prop
-to `App`, then, we passed it down to `Grid`. Because we aren't rendering
-Grid inside of `App` anymore (since we're rendering our Routes) instead,
+to `Widget`, then, we passed it down to `Grid`. Because we aren't rendering
+Grid inside of `Widget` anymore (since we're rendering our Routes) instead,
 that data isn't making its way to `Grid` and therefor, `props.data`
 inside of `Grid` is `undefined`. That was a mouthful. Basically `Grid`
 is no longer receiving the data it needs.
@@ -967,7 +967,7 @@ the Grid component, but that seems overly complex. Instead, we're
 going to use the context prop we talked about earlier. Anything that
 we stick on the object that we pass to context, we'll be able to
 access later on in any component as props.staticContext. So instead
-of passing data to App, let's use context instead.
+of passing data to Widget, let's use context instead.
 
 ```
 // server/index.js
@@ -985,7 +985,7 @@ promise.then((data) => {
 ...
 ```
 
-Notice we're no longer passing anything as a prop to App. Now, in order to gain access to the popular repos, we'll get it off of props.staticContext.data. Let's head over to our Grid component where we need the data and make that change.
+Notice we're no longer passing anything as a prop to Widget. Now, in order to gain access to the popular repos, we'll get it off of props.staticContext.data. Let's head over to our Grid component where we need the data and make that change.
 
 ```
 class Grid extends Component {
@@ -1016,7 +1016,7 @@ for this is because we're rendering on the server, that's working fine.
 Then when React goes to "pick it up", it's throwing a **Cannot read
 property 'data' of undefined** error. The reason for this is because,
 just as we did before on the server, we we're passing a `data` prop to
-our `App` component on the client.
+our `Widget` component on the client.
 
 ```
 // browser/index.js
@@ -1030,7 +1030,7 @@ hydrate(
 ```
 
 That's not going to work for the same reasons it didn't work on the
-server. `App` isn't passing down that data to the `Grid` component
+server. `Widget` isn't passing down that data to the `Grid` component
 anymore. Instead of passing data down, we can just grab it off the
 `window` object inside of the `Grid` component itself.
 

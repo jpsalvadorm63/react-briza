@@ -218,7 +218,7 @@ function Topics () {
 
 This is why understanding Route was so important. Nothing has changed from
 earlier to right now, but for some reason, your brain gets all worked up
-since we're rendering a Route outside of our main App component.
+since we're rendering a Route outside of our main Widget component.
 
 What's going on is when we go to `/topics`, the `Topic` component is rendered.
 Topics then renders a navbar and a new Route which will match for any of
@@ -235,7 +235,7 @@ in React can apply directly to nesting Routes.
 
 At this point we're progressing along nicely. What if, for some reason,
 another member of your team who wasn't familiar with React Router decided
-to change `/topics` to `/concepts?` They'd probably head over to the main App
+to change `/topics` to `/concepts?` They'd probably head over to the main Widget
 component and change the Route
 
 ```

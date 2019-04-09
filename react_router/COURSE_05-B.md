@@ -52,7 +52,7 @@ CSS might look like this
 That way we'll adjust the opacity of an element anytime it has a class 
 name of `fade-enter` (which `CSSTransition` will apply for us).
 
-Alright now that we have our App set up and we understand a little bit more 
+Alright now that we have our Widget set up and we understand a little bit more
 about React Transition Group, let's join them.
 
 First, we know that we have to wrap everything that's going to be animating 

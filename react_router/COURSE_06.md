@@ -59,7 +59,7 @@ hold off on downloading certain code until you were certain the user's
 browser didn't already have it natively.
 
 Here's the good news (that I kind of already alluded to earlier). This
-type of functionality does exist, it's supported by Create React App,
+type of functionality does exist, it's supported by Create React Widget,
 and it's currently in Stage 3 of the ECMAScript process. The difference
 is that instead of using `import` as you typically would, you use it like
 a function that returns you a promise that resolves with the module once
@@ -313,7 +313,7 @@ export default App
 ```
 
 How we do we know this is actually working and code splitting our routes?
-If you run npm run build with an app created by Create React App, you'll
+If you run npm run build with an app created by Create React Widget, you'll
 see our app's been split.
 
 ![split](courseImages/split.png)

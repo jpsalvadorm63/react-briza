@@ -55,7 +55,7 @@ const MainApp = (props) => {
     () => {
       dispatch(handleTestAppSignal())
       return () => {
-        console.log("- - - - bye App")
+        console.log("- - - - bye Widget")
       }
     },[]
   );

@@ -21,7 +21,6 @@ const LoginForm = (props) => {
   const logoutOk = result => dispatch(handleLogout())
   const logoutFails = result => console.log("logout fails ===>", result)
 
-
   useEffect(
     () => {
       dispatch(handleTestLoginFormSignal())
