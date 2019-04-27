@@ -14,7 +14,7 @@ API.fetchComponentSignal = (componentName, version, number) => {
   })
 }
 
-////////////////  Login Login API
+////////////////  Login API
 
 const initialValues = {
   email: '',

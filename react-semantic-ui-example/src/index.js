@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'semantic-ui-css/semantic.min.css';
+import {createStore} from 'redux'
+import {Provider} from 'react-redux'
 
-import './index.css';
-import Widget from './Login/Widget';
+import 'semantic-ui-css/semantic.min.css';
+import {reducers} from "./COMPONENTS/_APP/reducers"
+// import {middlewares} from "src/components/_APP/middlewares"
+
+// import './index.css';
+import Login from './COMPONENTS/Login/Widget';
 import * as serviceWorker from './serviceWorker';
 
+// const store = createStore(reducers)
+const store = createStore(reducers)
+
 ReactDOM.render(
-  <Widget />,
+  <Provider store={store}>
+    <Login />
+  </Provider>,
   document.getElementById('root')
 );
 

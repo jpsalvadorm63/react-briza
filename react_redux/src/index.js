@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import {createStore} from 'redux'
+import {Provider} from 'react-redux'
+
 import './index.css'
 import App from './components/_APP/widget'
 import * as serviceWorker from './serviceWorker'
-import {createStore} from 'redux'
-import {Provider} from 'react-redux'
 
 import {reducers} from "./components/_APP/reducers"
 import {middlewares} from "./components/_APP/middlewares"

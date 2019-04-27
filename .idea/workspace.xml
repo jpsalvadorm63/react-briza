@@ -2,9 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b60d84c-1444-47c5-acbe-85b7b48b1dbd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/GIT-COMMANDS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-material-ui/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-material-ui/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-material-ui/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-material-ui/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-material-ui/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-material-ui/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-material-ui/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-material-ui/.idea/react-material-ui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-material-ui/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-material-ui/STEPS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-semantic-ui-example/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/Login/WidgetLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/Login/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/_APP/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/_APP/middlewares.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/_APP/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/_APP/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/_APP/widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/_COMMONS/components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_capela/DEMO004.html" beforeDir="false" afterPath="$PROJECT_DIR$/a_capela/DEMO004.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-semantic-ui-example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/react-semantic-ui-example/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-semantic-ui-example/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-semantic-ui-example/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-semantic-ui-example/src/Login/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/Login/Widget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetLogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/Login/WidgetMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-semantic-ui-example/src/Login/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/Login/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-semantic-ui-example/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-semantic-ui-example/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react_mdl" beforeDir="false" afterPath="$PROJECT_DIR$/react_mdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_redux/src/components/LoginForm/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_redux/src/components/LoginForm/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_redux/src/components/_APP/middlewares.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_redux/src/components/_APP/middlewares.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_redux/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_redux/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,34 +48,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/Login/api.js">
+    <leaf>
+      <file leaf-file-name="DEMO001.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a_capela/DEMO001.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state relative-caret-position="51">
+              <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WidgetLogin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetLogin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="DEMO004.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a_capela/DEMO004.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="204">
-                <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <first_editor relative-caret-position="51">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -53,16 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GIT-COMMANDS.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GIT-COMMANDS.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="14" selection-start-column="14" selection-end-column="14" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+      <file leaf-file-name="DEMO004.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/a_capela/DEMO004.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="192" column="9" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -78,8 +92,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>state</find>
-      <find>04</find>
       <find>history.replace</find>
       <find>history.push</find>
       <find>’</find>
@@ -108,6 +120,8 @@
       <find>index.js</find>
       <find>index.j</find>
       <find>href</find>
+      <find>an valid</find>
+      <find>path.resolve</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -126,6 +140,7 @@
       <dir>C:\OptimGeek\DEMOS\MDL\react_redux\src\components\LoginForm</dir>
       <dir>C:\OptimGeek\DEMOS\MDL\react-semantic-ui-example\public</dir>
       <dir>C:\OptimGeek\DEMOS\MDL\react-semantic-ui-example\src</dir>
+      <dir>C:\OptimGeek\DEMOS\MDL\react-semantic-ui-example</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -134,16 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react_redux/src/components/Home/Home.js" />
-        <option value="$PROJECT_DIR$/react_redux/src/components/_APP/store.js" />
-        <option value="$PROJECT_DIR$/react_redux/src/components/About/_api.js" />
-        <option value="$PROJECT_DIR$/react_redux/src/components/Home/store.js" />
-        <option value="$PROJECT_DIR$/react_redux/src/components/_APP/api.js" />
-        <option value="$PROJECT_DIR$/react_redux/src/components/About/api.js" />
-        <option value="$PROJECT_DIR$/react_redux/src/components/Home/api.js" />
-        <option value="$PROJECT_DIR$/react_redux/src/components/Contact/api.js" />
-        <option value="$PROJECT_DIR$/react_redux/src/components/About/store.js" />
-        <option value="$PROJECT_DIR$/react_redux/src/components/Contact/styles.css" />
         <option value="$PROJECT_DIR$/react_redux/src/components/Contact/styles.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/Contact/store.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/Contact/ContactInfoWidget.js" />
@@ -153,7 +158,6 @@
         <option value="$PROJECT_DIR$/react_redux/src/components/Contact/widget.js" />
         <option value="$PROJECT_DIR$/react_redux/README.md" />
         <option value="$PROJECT_DIR$/react_redux/src/components/MyForm/store.js" />
-        <option value="$PROJECT_DIR$/react_redux/src/components/_APP/middlewares.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/MyForm/widget.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/MyForm/FormTest.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/MyForm/api.js" />
@@ -176,15 +180,26 @@
         <option value="$PROJECT_DIR$/semantic/src/App2.js" />
         <option value="$PROJECT_DIR$/semantic/src/index.js" />
         <option value="$PROJECT_DIR$/react-semantic-ui-example/src/_APP/index.js" />
-        <option value="$PROJECT_DIR$/react-semantic-ui-example/src/index.js" />
         <option value="$PROJECT_DIR$/react-semantic-ui-example/src/logo.svg" />
-        <option value="$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetMenu.js" />
         <option value="$PROJECT_DIR$/react_redux/src/components/LoginForm/widget.js" />
         <option value="$PROJECT_DIR$/react-semantic-ui-example/src/Login/Widget.js" />
         <option value="$PROJECT_DIR$/react-semantic-ui-example/src/Login/api.js" />
-        <option value="$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetLogin.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/GIT-COMMANDS.md" />
+        <option value="$PROJECT_DIR$/react-semantic-ui-example/src/_COMMONS/ErrorMessage.js" />
+        <option value="$PROJECT_DIR$/react-semantic-ui-example/src/_COMMONS/components.js" />
+        <option value="$PROJECT_DIR$/react-semantic-ui-example/tsconfig.paths.json" />
+        <option value="$PROJECT_DIR$/react-semantic-ui-example/.env" />
+        <option value="$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetMenu.js" />
+        <option value="$PROJECT_DIR$/react-semantic-ui-example/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetLogin.js" />
+        <option value="$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/Login/store.js" />
+        <option value="$PROJECT_DIR$/react-semantic-ui-example/src/_APP/reducers.js" />
+        <option value="$PROJECT_DIR$/react_redux/src/index.js" />
+        <option value="$PROJECT_DIR$/react_redux/src/components/_APP/middlewares.js" />
+        <option value="$PROJECT_DIR$/react-semantic-ui-example/src/_APP/middlewares.js" />
+        <option value="$PROJECT_DIR$/react-semantic-ui-example/src/index.js" />
+        <option value="$PROJECT_DIR$/a_capela/DEMO004.html" />
       </list>
     </option>
   </component>
@@ -196,13 +211,14 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/myredux/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react-material-ui/node_modules" />
     <handled-path value="$PROJECT_DIR$/react-semantic-ui-example/node_modules" />
     <handled-path value="$PROJECT_DIR$/react_mdl/node_modules" />
     <handled-path value="$PROJECT_DIR$/react_redux/node_modules" />
     <handled-path value="$PROJECT_DIR$/react_router/node_modules" />
     <handled-path value="$PROJECT_DIR$/semantic/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="width" value="814" />
     <option name="height" value="867" />
@@ -215,7 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,41 +238,11 @@
               <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
               <item name="MDL" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDL" type="462c0819:PsiDirectoryNode" />
-              <item name="react-semantic-ui-example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDL" type="462c0819:PsiDirectoryNode" />
-              <item name="react_redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDL" type="462c0819:PsiDirectoryNode" />
-              <item name="react_redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDL" type="462c0819:PsiDirectoryNode" />
-              <item name="react_redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MDL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MDL" type="462c0819:PsiDirectoryNode" />
-              <item name="react_redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginForm" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,19 +257,19 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OptimGeek\DEMOS\MDL\react-semantic-ui-example\src\COMPONENTS" />
+      <recent name="C:\OptimGeek\DEMOS\MDL\react-semantic-ui-example\src" />
+      <recent name="C:\OptimGeek\DEMOS\MDL\react-semantic-ui-example\src\_APP" />
+      <recent name="C:\OptimGeek\DEMOS\MDL\react-semantic-ui-example\src\Login" />
+      <recent name="C:\OptimGeek\DEMOS\MDL\react_redux\src\components\Contact" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\OptimGeek\DEMOS\MDL\react_redux\src\components\MyForm" />
       <recent name="C:\OptimGeek\DEMOS\MDL\react_redux\src\components\Contact" />
       <recent name="C:\OptimGeek\DEMOS\MDL\react_redux\src\components\Home" />
       <recent name="C:\OptimGeek\DEMOS\MDL\react_redux\src\components\_APP" />
       <recent name="C:\OptimGeek\DEMOS\MDL\react_redux\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OptimGeek\DEMOS\MDL\react-semantic-ui-example\src" />
-      <recent name="C:\OptimGeek\DEMOS\MDL\react-semantic-ui-example\src\_APP" />
-      <recent name="C:\OptimGeek\DEMOS\MDL\react-semantic-ui-example\src\Login" />
-      <recent name="C:\OptimGeek\DEMOS\MDL\react_redux\src\components\Contact" />
-      <recent name="C:\OptimGeek\DEMOS\MDL\react_redux\src\components\ContactsWidget.js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -363,19 +348,36 @@
       <workItem from="1554766963910" duration="12673000" />
       <workItem from="1554787262567" duration="779000" />
       <workItem from="1554814303778" duration="80000" />
-      <workItem from="1554814415176" duration="1252000" />
+      <workItem from="1554814415176" duration="4967000" />
+      <workItem from="1554830908198" duration="1511000" />
+      <workItem from="1554834509001" duration="917000" />
+      <workItem from="1554930736963" duration="12470000" />
+      <workItem from="1554993079749" duration="625000" />
+      <workItem from="1555013603129" duration="783000" />
+      <workItem from="1555256991438" duration="756000" />
+      <workItem from="1555264507862" duration="4458000" />
+      <workItem from="1555423312872" duration="3799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="475651000" />
+    <option name="totallyTimeSpent" value="504685000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="814" height="867" extended-state="0" />
+    <frame x="-7" y="0" width="814" height="867" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3234536" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3079897" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5064433" side_tool="true" weight="0.35782313" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292517" />
@@ -384,6 +386,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4935567" visible="true" weight="0.307483" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -436,66 +439,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/Login/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetLogin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redux/src/index.js" />
-    <entry file="file://$PROJECT_DIR$/redux/src/components/About/_redux.js" />
-    <entry file="file://$PROJECT_DIR$/redux/src/components/About/About.js" />
-    <entry file="file://$PROJECT_DIR$/redux/src/components/_APP/App.js" />
-    <entry file="file://$PROJECT_DIR$/react_router/src/App024/App024.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_redux/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_redux/src/components/_APP/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_redux/src/components/About/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_redux/src/components/Contact/api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_redux/src/components/About/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
@@ -562,24 +509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_redux/src/components/_APP/middlewares.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_redux/src/components/_APP/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="788">
           <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_redux/src/components/_APP/reducers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -620,13 +553,6 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_redux/src/components/LoginForm/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -681,51 +607,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_redux/src/components/LoginForm/widget.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/Login/Widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/Login/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -740,29 +625,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/README.md">
+    <entry file="file://$PROJECT_DIR$/GIT-COMMANDS.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="357">
+            <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="25" />
+          </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/Login/WidgetLogin.js">
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-85">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/_tsconfig._paths._json" />
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/_COMMONS/components.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/Login/WidgetMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/Login/Widget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -778,15 +681,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GIT-COMMANDS.md">
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <first_editor relative-caret-position="202">
+            <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/Login/WidgetLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_redux/src/components/About/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_redux/src/components/LoginForm/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_redux/src/components/_APP/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/_APP/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_redux/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_redux/src/components/_APP/middlewares.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/_APP/middlewares.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#312#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/Login/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-semantic-ui-example/src/COMPONENTS/Login/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a_capela/DEMO001.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a_capela/DEMO004.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a_capela/DEMO004.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="192" column="9" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
         </state>
       </provider>
     </entry>

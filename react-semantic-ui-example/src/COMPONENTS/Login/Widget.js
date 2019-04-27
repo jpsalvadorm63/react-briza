@@ -1,16 +1,19 @@
 import React from 'react';
 import { Container } from 'semantic-ui-react';
+import {connect} from "react-redux"
 
 import Menu from './WidgetMenu';
 import Login from './WidgetLogin';
 
-const Widget = () => (
+const Widget = ({lgnInf}) => (
   <div>
     <Menu />
     <Container>
-      <Login />
+      <Login logInf={lgnInf}/>
     </Container>
   </div>
 );
 
-export default Widget;
+export default connect(
+  (state) => ({...state.stateLogin})
+)(Widget);
