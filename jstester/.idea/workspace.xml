@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f7f79b9-b475-4a5f-b19c-a123208271fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jstester.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-material-ui/src/common/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-material-ui/src/common/gvars/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-material-ui/src/ducks/MyDrawer/Widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-material-ui/src/ducks/MyDrawer/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-material-ui/src/ducks/MyDrawer/components/MyDrawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-material-ui/src/ducks/MyDrawer/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-material-ui/src/ducks/MyDrawer/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-material-ui/src/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-semantic-ui-example/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a_capela/DEMO001.md" beforeDir="false" afterPath="$PROJECT_DIR$/../a_capela/DEMO001.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-material-ui/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-material-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../react-material-ui/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/src/__TEMPO/LandingPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/src/__TEMPO/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/src/components/ProducBrand/ProductBrand.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-material-ui/src/components/ProducBrand/ProductBrand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/src/components/ProducBrand/ProductBrand.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-material-ui/src/components/ProducBrand/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/src/ducks/Landing/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-material-ui/src/ducks/Landing/Widget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/src/ducks/Login/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-material-ui/src/ducks/Login/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/src/ducks/Login/componentStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-material-ui/src/ducks/Login/componentStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/src/ducks/TopToolBar/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-material-ui/src/ducks/TopToolBar/Widget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/src/ducks/TopToolBar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-material-ui/src/ducks/TopToolBar/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-material-ui/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../react-material-ui/src/assets/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-material-ui/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-semantic-ui-example/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-semantic-ui-example/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-semantic-ui-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-semantic-ui-example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react_mdl" beforeDir="false" afterPath="$PROJECT_DIR$/../react_mdl" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/node_modules/" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#59#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/api.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="815" />
+    <option name="width" value="785" />
+    <option name="height" value="850" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jstester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jstester" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jstester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jstester" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f7f79b9-b475-4a5f-b19c-a123208271fb" name="Default Changelist" comment="" />
+      <created>1556997930430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556997930430</updated>
+      <workItem from="1556997937156" duration="1055000" />
+      <workItem from="1557004471760" duration="6577000" />
+      <workItem from="1557024088984" duration="31127000" />
+      <workItem from="1557409386055" duration="1422000" />
+      <workItem from="1557418116461" duration="1378000" />
+      <workItem from="1557427347679" duration="55000" />
+      <workItem from="1557522831110" duration="102000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41716000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="652" y="0" width="628" height="680" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.321489" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33759123" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29562044" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1156">
+            <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#59#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

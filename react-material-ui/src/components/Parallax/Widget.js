@@ -1,62 +1,40 @@
 import React, {useState} from 'react'
+import {styles as classes} from './styles'
 
-const componentStyles = {
-  main: {
-    display: "flex",
-    margin: "0",
-    padding: "8vh 0 8vh 0",
-    border: "0",
-    minHeight: "90vh",
-    maxHeight: "1000px",
-    position: "relative",
-    overflow: "hidden",
-    backgroundPosition: "center center",
-    backgroundSize: "cover",
-    backgroundColor: 'white',
-    WebkitFlex: 1,
-    flex: 1,
-    alignItems: "center"
-  },
-  filter: {
-    WebkitFilter: "grayscale(100%)",
-    filter: "grayscale(100%)",
-    WebkitTransition: "0.5s",
-    transition: "0.5s"
-  },
-  filterHover: {
-    WebkitFilter: "grayscale(0%)",
-    filter: "grayscale(0%)",
-    WebkitTransition: "0.5s",
-    transition: "0.5s"
-  }
-}
+//temp
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const Widget = ({children, image, style, greyhover}) => {
-  if(!!greyhover) {
-    const [hover, setHover] = useState(false)
-    return (
-      <div
-        style={{
-          ...componentStyles.main,
-          ...componentStyles[!hover?"filterHover":"filter"],
-          backgroundImage:`url(${image})`,
-          ...style
-        }}
-        onMouseOver={() => setHover(true)}
-        onMouseOut={() => setHover(false)}
-      >{children}</div>
-    )
-  } else {
-    return (
-      <div
-        style={{
-          ...componentStyles.main,
-          backgroundImage:`url(${image})`,
-          ...style
-        }}
-      >{children}</div>
-    )
-  }
+  const matches1 = useMediaQuery('(min-width:576px)'); console.log("(min-width:576px) ", matches1)
+  const matches2 = useMediaQuery('(min-width:768px)'); console.log("(min-width:768px) ", matches2)
+  const matches3 = useMediaQuery('(min-width:992px)'); console.log("(min-width:992px) ", matches3)
+  const matches4 = useMediaQuery('(min-width:1200px)'); console.log("(min-width:1200px) ", matches4)
+
+  const [hover, setHover] = useState(false)
+
+  const divProps = !!greyhover ?
+    {
+      style:{
+        ...classes.main,
+        ...classes[!hover?"filterHover":"filter"],
+        backgroundImage:`url(${image})`,
+        ...style
+      },
+      onMouseOver: () => setHover(true),
+      onMouseOut: () => setHover(false),
+    } : {
+      style:{
+        ...classes.main,
+        backgroundImage:`url(${image})`,
+        ...style
+      }
+    }
+
+  return (
+    <div {...divProps}>
+      {children}
+    </div>
+  )
 }
 
 export default Widget

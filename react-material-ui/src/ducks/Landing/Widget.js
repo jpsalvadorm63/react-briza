@@ -1,15 +1,12 @@
 import React from 'react'
 import Parallax from 'src/components/Parallax'
-import img from '../App/assets/bg.jpg'
-import ProductBrand from "src/components/ProducBrand/ProductBrand"
+import ProductBrand from "src/components/ProducBrand/Widget"
+import {bgStyle} from "src/common/api"
 
 export default () => {
   return (
-    <Parallax image={img} style={{minHeight:"410px"}}>
+    <Parallax style={bgStyle()}>
       <ProductBrand />
     </Parallax>
   )
 }
-
-
-{/*<Parallax image={img} style={{minHeight:"410px"}}>*/}

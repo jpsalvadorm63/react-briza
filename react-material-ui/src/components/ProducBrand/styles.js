@@ -3,7 +3,7 @@ const conatinerFluid = {
   paddingLeft: "15px",
   marginRight: "auto",
   marginLeft: "auto",
-  width: "100%"
+  // width: "100%"
 }
 
 const container = {
@@ -20,7 +20,7 @@ const container = {
   "@media (min-width: 1200px)": {
     maxWidth: "1140px"
   },
-  // fontFamily: '"Roboto","Helvetica","Arial","sans-serif"'
+  fontFamily: '"Roboto","Helvetica","Arial","sans-serif"'
 }
 
 export default {
@@ -30,6 +30,18 @@ export default {
     textAlign: "left"
   },
   title: {
+    // "@media (min-width: 576px)": {
+    //   fontSize: "5.2rem",
+    // },
+    // "@media (min-width: 768px)": {
+    //   fontSize: "5.2rem",
+    // },
+    // "@media (min-width: 992px)": {
+    //   fontSize: "5.2rem",
+    // },
+    // "@media (min-width: 1200px)": {
+    //   fontSize: "5.2rem",
+    // },
     fontSize: "5.2rem",
     fontWeight: "600",
     display: "inline-block",

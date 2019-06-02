@@ -1,17 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Paper from '@material-ui/core/Paper'
-import Avatar from '@material-ui/core/Avatar'
-import CssBaseline from '@material-ui/core/CssBaseline'
+import Paper from '@material-ui/core/Paper/index'
+import Avatar from '@material-ui/core/Avatar/index'
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined'
-import Typography from '@material-ui/core/Typography'
-import FormControl from '@material-ui/core/FormControl'
-import InputLabel from '@material-ui/core/InputLabel'
-import Input from '@material-ui/core/Input'
-import FormControlLabel from '@material-ui/core/FormControlLabel'
-import Checkbox from '@material-ui/core/Checkbox'
-import Button from '@material-ui/core/Button'
-import {componentStyles} from './componentStyles'
+import Typography from '@material-ui/core/Typography/index'
+import FormControl from '@material-ui/core/FormControl/index'
+import InputLabel from '@material-ui/core/InputLabel/index'
+import Input from '@material-ui/core/Input/index'
+import FormControlLabel from '@material-ui/core/FormControlLabel/index'
+import Checkbox from '@material-ui/core/Checkbox/index'
+import Button from '@material-ui/core/Button/index'
+import {styles} from '../styles'
 import withStyles from '@material-ui/core/styles/withStyles'
 
 
@@ -19,7 +18,6 @@ const LoginForm = ({classes}) => {
   const {paper, avatar, signIn, form, submit} = classes
   return (
     <>
-      <CssBaseline />
       <Paper className={paper} elevation={4}>
         <Avatar className={avatar}>
           <LockOutlinedIcon />
@@ -35,15 +33,15 @@ const LoginForm = ({classes}) => {
             <Input name="password" type="password" id="password" autoComplete="current-password" />
           </FormControl>
           <FormControlLabel
+            style={{width:'100%'}}
             control={<Checkbox value="remember" color="primary" />}
             label="Remember me"
           />
-          <Button
-            type="submit"
-            fullWidth
-            variant="contained"
-            className={submit + ' ' + signIn}
-          >Sign in</Button>
+          <div style={{width:'100%'}}>
+            <Button type='submit' variant='contained' className={submit}>
+              Sign in
+            </Button>
+          </div>
         </form>
       </Paper>
     </>
@@ -54,4 +52,4 @@ LoginForm.propTypes = {
   classes: PropTypes.object.isRequired,
 }
 
-export default withStyles(componentStyles)(LoginForm)
+export default withStyles(styles)(LoginForm)
