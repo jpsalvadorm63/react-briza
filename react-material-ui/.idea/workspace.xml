@@ -2,53 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b099dfa7-4212-4ff1-93f4-b7b302075afb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/routes/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/routes/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/routesIndex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyRouter/Widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyRouter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/Widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/props.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react_router/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../a_capela/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../a_capela/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/background2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/Frost.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/gvars/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/gvars/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyDrawer/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyDrawer/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyDrawer/components/MainOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyDrawer/components/MainOptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyDrawer/components/SubOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyDrawer/components/SubOptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyDrawer/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyDrawer/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProducBrand/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProducBrand/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/App/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/App/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/Landing/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/Landing/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/Login/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/Login/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/Login/components/LoginForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/Login/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/Login/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/MainDrawer/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/MainDrawer/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/TopToolBar/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/TopToolBar/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/TopToolBar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/TopToolBar/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-semantic-ui-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-semantic-ui-example/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react_mdl" beforeDir="false" afterPath="$PROJECT_DIR$/../react_mdl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react_router/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react_router/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react_router/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react_router/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react_router/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react_router/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react_router/src/App024/App024.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react_router/src/App024/App024.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -193,9 +149,10 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="820" />
-    <option name="height" value="860" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1618" />
+    <option name="height" value="868" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -210,24 +167,6 @@
             <path>
               <item name="react-material-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-material-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-material-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-material-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -398,16 +337,15 @@
       <workItem from="1560514272312" duration="11903000" />
       <workItem from="1560533999454" duration="29341000" />
       <workItem from="1560774321987" duration="22116000" />
-      <workItem from="1560861746704" duration="1151000" />
+      <workItem from="1560861746704" duration="1784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="911672000" />
+    <option name="totallyTimeSpent" value="912305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1294" height="694" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19331743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -421,9 +359,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49345794" visible="true" weight="0.3113879" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49345794" weight="0.3113879" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.506542" side_tool="true" weight="0.35667396" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3291815" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.3291815" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />

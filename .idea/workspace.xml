@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b60d84c-1444-47c5-acbe-85b7b48b1dbd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/react-material-ui/src/__TEMPO/Widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-material-ui/src/__TEMPO/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-material-ui/src/__TEMPO/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-material-ui/src/common/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-material-ui/src/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-semantic-ui-example/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-material-ui/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-material-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-material-ui/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/src/__TEMPO/LandingPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/src/__TEMPO/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/src/components/ProducBrand/ProductBrand.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-material-ui/src/components/ProducBrand/ProductBrand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/src/components/ProducBrand/ProductBrand.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-material-ui/src/components/ProducBrand/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/src/ducks/Landing/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-material-ui/src/ducks/Landing/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/src/ducks/Login/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-material-ui/src/ducks/Login/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/src/ducks/Login/componentStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-material-ui/src/ducks/Login/componentStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/src/ducks/TopToolBar/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-material-ui/src/ducks/TopToolBar/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/src/ducks/TopToolBar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-material-ui/src/ducks/TopToolBar/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-material-ui/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/react-material-ui/src/assets/img/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-material-ui/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-semantic-ui-example/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-semantic-ui-example/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-semantic-ui-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-semantic-ui-example/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1b60d84c-1444-47c5-acbe-85b7b48b1dbd" name="Default" comment="Improved Material Ui project">
       <change beforePath="$PROJECT_DIR$/react_mdl" beforeDir="false" afterPath="$PROJECT_DIR$/react_mdl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,29 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a_capela/DEMO001.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react_redux/src/components/Contact/ContactsWidget.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -191,10 +143,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-10" />
-    <option name="width" value="819" />
-    <option name="height" value="860" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1591" />
+    <option name="y" value="-9" />
+    <option name="width" value="1384" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -387,11 +340,20 @@
       <workItem from="1556762704703" duration="3337000" />
       <workItem from="1556797912770" duration="1283000" />
       <workItem from="1556802409801" duration="585000" />
+      <workItem from="1560862354688" duration="752000" />
     </task>
+    <task id="LOCAL-00001" summary="Improved Material Ui project">
+      <created>1560863545169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560863545169</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="519526000" />
+    <option name="totallyTimeSpent" value="520278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,12 +365,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="655" height="688" extended-state="1" />
-    <editor active="true" />
+    <frame x="1593" y="-7" width="1107" height="589" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15857606" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09158879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3291367" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3265306" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3292517" />
@@ -420,7 +382,7 @@
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.3291815" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4935567" weight="0.31316727" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5064433" side_tool="true" weight="0.35782313" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3202847" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.3129103" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -452,6 +414,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/react_mdl" />
     </ignored-roots>
+    <MESSAGE value="Improved Material Ui project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved Material Ui project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -752,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a_capela/DEMO001.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_redux/src/components/Contact/ContactsWidget.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -766,6 +723,13 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a_capela/DEMO001.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
         </state>
       </provider>
     </entry>
