@@ -1,6 +1,7 @@
 export const styles = theme => ({
-  root: {
-    flexGrow: 1,
+  toolBar: {
+    minHeight:'10px',
+    backgroundColor: 'transparent !important',
   },
   list: {
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
@@ -13,11 +14,6 @@ export const styles = theme => ({
     paddingTop: "0",
     paddingBottom: "0",
     color: "inherit",
-  },
-  toolbar : {
-    backgroundColor: "white",
-    color: theme.palette.action.active,
-    position: "fixed",
   },
   grow: {
     flexGrow: 1,

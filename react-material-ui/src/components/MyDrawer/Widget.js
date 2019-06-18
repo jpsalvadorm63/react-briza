@@ -23,30 +23,25 @@ const divProps = () => ({
   role: "button",
 })
 
-const mainOptionsProps = props => {
-  const {drawerContent, selectOption, close, classes} = props
-  return {
-    drawerContent,
-    selectOption,
-    close,
-    classes
-  }
-}
+const mainOptionsProps = ({drawerContent, selectOption, close, classes}) => ({
+  drawerContent,
+  selectOption,
+  close,
+  classes
+})
 
 const userInfoProps = ({drawerContent, classes}) => ({
   drawerContent,
   classes
 })
 
-const Widget = props => (
+const composition = compose(withStyles(styles))
+
+export default composition(props => (
   <Drawer {...drawerProps(props)}>
     <UserInfo {...userInfoProps(props)}/>
     <div {...divProps()} >
       <MainOptions {...mainOptionsProps(props)} />
     </div>
   </Drawer>
-)
-
-const composition = compose(withStyles(styles))
-
-export default composition(Widget)
+))

@@ -1,29 +1,28 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import Parallax from 'src/components/Parallax'
 import withStyles from '@material-ui/core/styles/withStyles'
-import {styles} from "./styles"
-import LoginForm from './components/LoginForm'
+import Parallax from 'src/components/Parallax'
 import ProductBrand from "src/components/ProducBrand/Widget"
+import {styles} from "./styles"
 import {bgStyle} from "src/common/api"
+import LoginForm from './subcomponents/LoginForm/Widget'
+import {compose} from "redux"
+import {connect} from "react-redux";
 
-const SignIn = ({classes}) => {
-  const {main, mainRight} = classes
+const composition = compose(
+  connect((state) => ({loggedIn: state.storeGVars.loggedIn})),
+  withStyles(styles)
+)
 
-  return (
-    <Parallax style={bgStyle()}>
-      <main className={main} >
-        <LoginForm />
-      </main>
-      <main className={mainRight} >
-        <ProductBrand />
-      </main>
-    </Parallax>
+export default composition(({classes, history, loggedIn}) => (
+    <>
+      <Parallax style={bgStyle()}>
+        <div className={classes.mainLeft} >
+          <LoginForm history={history} loggedIn={loggedIn} />
+        </div>
+        <div className={classes.mainRight} >
+          <ProductBrand />
+        </div>
+      </Parallax>
+    </>
   )
-}
-
-SignIn.propTypes = {
-  classes: PropTypes.object.isRequired,
-}
-
-export default withStyles(styles)(SignIn)
+)

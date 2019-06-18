@@ -1,32 +1,26 @@
 import React from 'react'
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch
-} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
+import TopToolBar from 'src/ducks/TopToolBar/Widget'
+import MyRouter from 'src/components/MyRouter'
+import {routesIndex} from '../../common/routesIndex'
+import {connect} from 'react-redux'
+import {compose} from 'redux'
 
-import TopToolBar from "../TopToolBar/Widget"
-import Login from "../Login/Widget"
-import Home from "../Landing/Widget"
-
-// Routers
-const Routers = () =>(
-  <Switch>
-    <Route exact={true} path="/" component={Home}/>
-    <Route path="/login" component={Login} />
-    <Route render={() => <h1>404 Error</h1>} />
-  </Switch>
+const composition = compose(
+  connect((state) => ({...state.storeRoutes})),
 )
 
-const App = () => (
-  <>
+export default composition( ({basicRoutes, roleRoutes}) => {
+  const myRouterProps = {
+    routes: basicRoutes,
+    roleRoutes: roleRoutes,
+    routesIndex: routesIndex,
+  }
+
+  return (
     <Router>
       <TopToolBar />
-      <section>
-        <Routers />
-      </section>
+      <MyRouter {...myRouterProps}/>
     </Router>
-  </>
-)
-
-export default App
+  )
+})

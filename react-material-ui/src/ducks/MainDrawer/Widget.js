@@ -3,7 +3,7 @@ import {compose} from 'redux'
 import {connect} from 'react-redux'
 import MyDrawer from 'src/components/MyDrawer'
 // import JsonViewer from "src/common/JsonViewer"
-// import {UserInfo} from "src/components/UserInfo"
+// import {UserInfo} from "src/subcomponents/UserInfo"
 import {handleSelectDrawerOption} from "./store"
 
 const Widget = (props) => {
@@ -41,7 +41,7 @@ const Widget = (props) => {
 }
 
 const composition = compose(
-  connect((state) => ({...state.reducerDrawer})),
+  connect((state) => ({...state.storeDrawer})),
 )
 
 export default composition(Widget)

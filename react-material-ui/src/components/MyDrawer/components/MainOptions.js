@@ -4,11 +4,7 @@ import {InconByName} from "../../../ducks/MainDrawer/icons";
 import Collapse from "@material-ui/core/Collapse";
 import SubOptions from "./SubOptions";
 
-const buttonProps = (option, classes, selectOption) => {
-  const styles = {
-    root: !option._SELECTED ? classes.mainOption : classes.sltdMainOption,
-    label: !option._SELECTED ? classes.mainOptionLabel : classes.sltdMainOptionLabel,
-  }
+const mainOptionbuttonProps = (option, classes, selectOption) => {
   return {
     id: option._ID,
     size:'small',
@@ -16,7 +12,10 @@ const buttonProps = (option, classes, selectOption) => {
     disableFocusRipple: true,
     disableRipple: true,
     fullWidth: true,
-    classes: styles,
+    classes: {
+      root: classes.mainOption,
+      label: !option._SELECTED ? classes.mainOptionLabel : classes.sltdMainOptionLabel,
+    },
     onClick:() => selectOption(option._ID),
   }
 }
@@ -44,7 +43,7 @@ export default ({drawerContent, selectOption, close, classes}) => (
       drawerContent.options.map((option) => {
         return (
           <Fragment key={option._ID}>
-            <Button {...buttonProps(option, classes, selectOption)}>
+            <Button {...mainOptionbuttonProps(option, classes, selectOption)}>
               <InconByName {...iconByNameProps(option, classes)}/>
               {option.label}
             </Button>

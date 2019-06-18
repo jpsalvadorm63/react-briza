@@ -3,25 +3,23 @@ import Button from "@material-ui/core/Button"
 import {InconByName} from "../../../ducks/MainDrawer/icons"
 
 const buttonProps = (_ID, parentId, _SELECTED, selectOption, action, classes) => {
-  const styles = {
-    root: !_SELECTED ? classes.subOption : classes.sltdSubOption,
-    label: classes.subOptionlabel,
-  }
   return {
     key: _ID,
     variant: 'text',
     disableRipple: true,
     fullWidth: true,
-    classes: styles,
+    classes: {
+      root: classes.subOption,
+      label: !_SELECTED ? classes.subOptionLabel : classes.sltdSubOptionLabel,
+    },
     onClick: () => selectOption(_ID, parentId)
   }
 }
 
 const iconByNameProps = (icon, classes, colors) => {
-  const styles = {root:classes['iconStyle2' + colors]}
   return {
     iconName: icon,
-    classes: styles,
+    classes: {root:classes['iconStyle2' + colors]},
   }
 }
 

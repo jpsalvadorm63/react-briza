@@ -3,7 +3,8 @@ import {
   BrowserRouter as Router,
   NavLink,
   Route,
-  Switch
+  Switch,
+  Redirect,
 } from 'react-router-dom'
 
 // styles
@@ -37,33 +38,63 @@ const NavLinks = () => {
   )
 }
 
-const Routers = () => {
-  return (
-    <div className="views">
-      <Switch>
-        <Route exact={true} path="/" component={Home}/>
-        <Route path="/about" component={About}/>
-        <Route path="/reducer" component={Reducer}/>
-        <Route path="/contact" component={Contact}/>
-        <Route path="/admin" render={() => <Admin appState={appState} />} />
-        <Route path="/login" render={() => <Login appState={appState} />} />
-        <Route render={() => <h1>404 Error</h1>} />
-      </Switch>
-    </div>
-  )
-}
+const routesIndex = (path) => ([
+  {path:'/', renderComponent:Home},
+  {path:'/home', renderFunction:() => <Redirect to={'/'} />},
+  {path:'/about', renderComponent:About},
+  {path:'/reducer', renderComponent:Reducer},
+  {path:'/contact', renderComponent:Contact},
+  {path:'/admin', renderFunction:() => <Admin appState={appState} />},
+  {path:'/login', renderFunction:() => <Login appState={appState} />},
+].filter((item,key) => item.path === path)[0])
+
+const routesFromApi = () => ([ // COMES FROM API
+  {exact:true, path:'/'},
+  {exact:false, path:'/home'},
+  {exact:false, path:'/about'},
+  {exact:false, path:'/reducer'},
+  {exact:false, path:'/contact'},
+  {exact:false, path:'/admin'},
+  {exact:false, path:'/login'},
+])
+
+const combineRoutesPath = (routes) => (
+  routes.map(item => (
+    {...item, ...routesIndex(item.path)}
+  ))
+)
+
+const Routers = ({routes}) => (
+  <div className="views">
+    <Switch>
+      {
+        combineRoutesPath(routes).map(({exact, path, renderComponent, renderFunction}, key) => {
+          const myProps = {
+            key:key,
+            exact:exact,
+            path:path,
+            ...(
+              renderComponent ? {component:renderComponent} :
+                renderFunction? {render:renderFunction} : null
+            )
+          }
+          return <Route {...myProps} />
+        })
+      }
+      <Route render={() => <h1>404 Error</h1>} />
+    </Switch>
+  </div>
+)
 
 // application entry component
-const App = (props) => {
+export default (props) => {
   return(
     <Router>
       <div>
         <NavLinks />
-        <Routers />
+        <Routers routes={routesFromApi()}/>
         <div>Hola ...</div>
       </div>
     </Router>
   )
 }
-
-export default App

@@ -1,8 +1,12 @@
 import React from 'react'
-import componentStyles from "./styles"
+// import componentStyles from "./styles"
 import withStyles from "@material-ui/core/styles/withStyles"
+import {compose} from "redux";
+import {styles} from "../../ducks/Login/styles";
 
-const Widget = ({classes}) => {
+const composition = compose(withStyles(styles))
+
+export default composition(({classes}) => {
   const {container, brand, title} = classes
   return (
     <>
@@ -19,6 +23,4 @@ const Widget = ({classes}) => {
       </div>
     </>
   )
-}
-
-export default withStyles(componentStyles)(Widget)
+})
