@@ -1,28 +1,59 @@
 import React from 'react'
 import withStyles from '@material-ui/core/styles/withStyles'
+import {compose} from 'redux'
+import {connect} from 'react-redux'
 import Parallax from 'src/components/Parallax'
 import ProductBrand from "src/components/ProducBrand/Widget"
-import {styles} from "./styles"
+import {loginGridStyles} from "./styles"
 import {bgStyle} from "src/common/api"
 import LoginForm from './subcomponents/LoginForm/Widget'
-import {compose} from "redux"
-import {connect} from "react-redux";
+import { handleUserLogin, handleUserLogout } from "./store"
+import {Grid} from '@material-ui/core'
 
 const composition = compose(
-  connect((state) => ({loggedIn: state.storeGVars.loggedIn})),
-  withStyles(styles)
+  connect(
+    (state) => ({
+      loggedIn: state.storeGVars.loggedIn,
+      loginInfo: state.storeLogin.loginInfo
+    })
+  ),
+  withStyles(loginGridStyles)
 )
 
-export default composition(({classes, history, loggedIn}) => (
+export default composition( ({loginInfo, loggedIn, history, dispatch, classes}) => {
+  const loginFc = (loginInfo) => {
+    if (!loggedIn) {
+      dispatch(handleUserLogin(loginInfo, loggedIn))
+    }
+    if (loggedIn) dispatch(handleUserLogout(loginInfo))
+  }
+
+  const loginFormProps = {
+    loginInfo: {...loginInfo},
+    loginFc,
+    loggedIn,
+    history,
+    dispatch,
+  }
+
+  return (
     <>
-      <Parallax style={bgStyle()}>
-        <div className={classes.mainLeft} >
-          <LoginForm history={history} loggedIn={loggedIn} />
-        </div>
-        <div className={classes.mainRight} >
+      <Grid container>
+        <Grid item >
           <ProductBrand />
-        </div>
-      </Parallax>
+        </Grid>
+        <Grid item >
+          <LoginForm {...loginFormProps} />
+        </Grid>
+      </Grid>
+      {/*<Parallax style={bgStyle()}>*/}
+        {/*<div className={classes.mainLeft} >*/}
+        {/*  <LoginForm {...loginFormProps} />*/}
+        {/*</div>*/}
+        {/*<div className={classes.mainRight} >*/}
+        {/*  <ProductBrand />*/}
+        {/*</div>*/}
+      {/*</Parallax>*/}
     </>
   )
-)
+})

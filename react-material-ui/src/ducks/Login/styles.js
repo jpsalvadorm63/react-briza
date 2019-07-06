@@ -1,4 +1,4 @@
-export const styles = theme => ({
+export const loginGridStyles = theme => ({
   mainLeft: {
     width: 260,
     display: 'block', // Fix IE 11 issue.
@@ -17,13 +17,13 @@ export const styles = theme => ({
       width: 750,
       marginLeft: 8,
       marginRight: 'auto',
-      display: 'block', // Fix IE 11 issue.
+      display: 'block', // Fix IE 11
       textShadow: "1px 1px #777777"
     },
     [theme.breakpoints.up(850)]: {
       width: 500,
       marginLeft: 10,
-      display: 'block', // Fix IE 11 issue.
+      display: 'block', // Fix IE 11
       marginRight: 'auto',
     },
   },

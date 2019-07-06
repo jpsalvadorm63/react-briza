@@ -5,6 +5,21 @@ const oldRed = "#ff0000"
 const oldOrange = "#FF8C00"
 const oldGray = "#949494"
 
+const paper = {
+  backgroundImage: 'url("background.svg")',
+    backgroundPosition: 'background',
+    backgroundRepeat: 'no-repeat',
+    minWidth: '160px',
+    "@media (min-width: 300px)": { width:'40%', },
+  "@media (min-width: 576px)": { width:'36%', },
+  "@media (min-width: 768px)": { width:'26%', },
+  "@media (min-width: 992px)": { width:'20%', },
+  "@media (min-width: 1200px)": { width:'18%', },
+  maxWidth: '216px',
+    borderRadius: '4px 4px 0 0 ',
+    margin: '4px 0 0 4px',
+}
+
 const optionBase = {
   margin: '0',
   padding: '0',
@@ -12,7 +27,9 @@ const optionBase = {
   display: 'block',
   borderRadius: '0 !important',
 }
+
 const mainOption = {...optionBase,}
+
 const mainOptionIconStyleBase = {
   marginLeft: '-8%',
   fontSize: '0.8rem',
@@ -22,6 +39,7 @@ const mainOptionIconStyleBase = {
   top: '50%',
   transform: 'translateY(-50%)',
 }
+
 const mainOptionLabelBase = {
   display: 'block',
   textAlign: 'left',
@@ -30,11 +48,13 @@ const mainOptionLabelBase = {
   marginLeft: '10% !important',
   width: '90% !important',
 }
+
 const mainOptionLabel = {
   ...mainOptionLabelBase,
   fontWeight: '400',
   borderBottom: '1px solid transparent',
 }
+
 const sltdMainOptionLabel = {
   ...mainOptionLabelBase,
   fontWeight: '500',
@@ -42,7 +62,9 @@ const sltdMainOptionLabel = {
 }
 
 const subOptionBase = {...optionBase,}
+
 const subOption = {...subOptionBase,}
+
 const iconStyleBase2 = {
   marginLeft: '-8%',
   fontSize: '0.8rem',
@@ -52,6 +74,7 @@ const iconStyleBase2 = {
   top: '50%',
   transform: 'translateY(-50%)',
 }
+
 const iconStyleBase3 = {
   position: 'absolute',
   marginLeft: '8px',
@@ -61,6 +84,7 @@ const iconStyleBase3 = {
   top: '50%',
   transform: 'translateY(-50%)',
 }
+
 const subOptionLabelBase = {
   display: 'block',
   textAlign: 'left',
@@ -68,26 +92,33 @@ const subOptionLabelBase = {
   fontSize: '0.7rem',
   width: '80% !important',
 }
+
+const userInfoGrid0 = {
+  margin: '24px 0 0 0',
+  width: '100%',
+  justify: 'flex-start',
+  alignItems: 'flex-start'
+}
+
+const userInfoAvatar = {
+  boxShadow: '2px 2px 8px rgba(0,0,0,0.4)',
+}
+
+const userInfoName = { fontSize: '1rem',}
+
+const userInfoRole = {
+  fontSize: '0.7rem',
+  fontWeight: '100',
+}
+
 const subOptionLabel = { ...subOptionLabelBase, fontWeight: '300', }
+
 const sltdSubOptionLabel = { ...subOptionLabelBase, fontWeight: '500', }
 
 export const styles = theme => (
   {
     // Drawer background
-    paper: {
-      backgroundImage: 'url("background.svg")',
-      backgroundPosition: 'background',
-      backgroundRepeat: 'no-repeat',
-      minWidth: '160px',
-      "@media (min-width: 300px)": { width:'40%', },
-      "@media (min-width: 576px)": { width:'36%', },
-      "@media (min-width: 768px)": { width:'26%', },
-      "@media (min-width: 992px)": { width:'20%', },
-      "@media (min-width: 1200px)": { width:'18%', },
-      maxWidth: '216px',
-      borderRadius: '4px 4px 0 0 ',
-      margin: '4px 0 0 4px',
-    },
+    paper,
 
     // Main options style
     mainOption,
@@ -125,27 +156,9 @@ export const styles = theme => (
     sltdIconStyle3: {...iconStyleBase3, color: 'black',},
 
     //userInfo styles
-    userInfoGrid0: {
-      margin: '24px 0 0 0',
-      width: '100%',
-      justify: 'flex-start',
-      alignItems: 'flex-start'
-    },
-    userInfoAvatar: {
-      boxShadow: '2px 2px 8px rgba(0,0,0,0.4)',
-    },
-    userInfoName: {
-      fontSize: '1rem',
-    },
-    userInfoRole: {
-      fontSize: '0.7rem',
-      fontWeight: '100',
-    },
+    userInfoGrid0,
+    userInfoAvatar,
+    userInfoName,
+    userInfoRole,
   }
 )
-
-// const oldDrawer = 'rgb(40,40, 40)'
-// const webkitDrawer = '-webkit-linear-gradient(45deg, rgba(40,40,40,1) 0%,rgba(14,14,14,1) 100%)'
-// const linearDrawer = 'linear-gradient(45deg, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%)'
-// const filterDrawer = 'progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 )'
-// background: `${linearDrawer}, ${webkitDrawer}, ${oldDrawer}`,

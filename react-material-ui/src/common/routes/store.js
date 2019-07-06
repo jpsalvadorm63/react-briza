@@ -1,4 +1,3 @@
-// import React from 'react';
 import API from './api'
 
 // Initial state - basic Menu
@@ -125,8 +124,8 @@ export const handleSetBasicRoutes = () => {
 //   return (dispatch) => {
 //     return Promise.all([
 //       API.fetchSelectDrawerOption(drawContent, id, parentId)
-//     ]).then(([drawerContent]) => {
-//       dispatch(setDrawerContent(drawerContent))
+//     ]).then(([roleMenu]) => {
+//       dispatch(setDrawerContent(roleMenu))
 //     })
 //   }
 // }

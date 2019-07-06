@@ -5,15 +5,15 @@ import {withStyles} from '@material-ui/core/styles/index'
 import {styles} from './styles'
 import MainOptions from './components/MainOptions'
 import UserInfo from './components/UserInfo'
+import {ErrorMessage} from 'src/components/Message'
 
 const drawerProps = ({open, close, classes}) => {
-  const styles = {paper:classes.paper}
   return (
     {
       open,
       anchor:'left',
       onClose:close,
-      classes: styles,
+      classes: {paper:classes.paper},
     }
   )
 }
@@ -30,18 +30,23 @@ const mainOptionsProps = ({drawerContent, selectOption, close, classes}) => ({
   classes
 })
 
-const userInfoProps = ({drawerContent, classes}) => ({
-  drawerContent,
+const userInfoProps = ({userInfo, classes}) => ({
+  userInfo,
   classes
 })
 
 const composition = compose(withStyles(styles))
 
 export default composition(props => (
-  <Drawer {...drawerProps(props)}>
-    <UserInfo {...userInfoProps(props)}/>
-    <div {...divProps()} >
-      <MainOptions {...mainOptionsProps(props)} />
-    </div>
-  </Drawer>
+  props.drawerContent.options ?
+    <Drawer {...drawerProps(props)}>
+      <UserInfo {...userInfoProps(props)}/>
+      <div {...divProps()} >
+        <MainOptions {...mainOptionsProps(props)} />
+      </div>
+    </Drawer> :
+    <Drawer {...drawerProps(props)}>
+      <UserInfo {...userInfoProps(props)}/>
+      <ErrorMessage msg={'Unknown options for this user'} />
+    </Drawer>
 ))

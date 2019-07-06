@@ -24,8 +24,8 @@ store.dispatch(handleSetBasicRoutes())
 
 ReactDOM.render(
   <Provider store={store}>
-    <CssBaseline />
     <MuiThemeProvider theme={theme}>
+      <CssBaseline />
       <App/>
     </MuiThemeProvider>
   </Provider>, document.getElementById('root')

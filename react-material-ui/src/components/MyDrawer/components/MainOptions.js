@@ -1,8 +1,8 @@
-import React, {Fragment} from "react";
-import Button from "@material-ui/core/Button";
-import {InconByName} from "../../../ducks/MainDrawer/icons";
-import Collapse from "@material-ui/core/Collapse";
-import SubOptions from "./SubOptions";
+import React, {Fragment} from 'react';
+import Button from '@material-ui/core/Button'
+import {IconByName} from 'src/components/graphics'
+import Collapse from '@material-ui/core/Collapse'
+import SubOptions from './SubOptions'
 
 const mainOptionbuttonProps = (option, classes, selectOption) => {
   return {
@@ -44,7 +44,7 @@ export default ({drawerContent, selectOption, close, classes}) => (
         return (
           <Fragment key={option._ID}>
             <Button {...mainOptionbuttonProps(option, classes, selectOption)}>
-              <InconByName {...iconByNameProps(option, classes)}/>
+              <IconByName {...iconByNameProps(option, classes)}/>
               {option.label}
             </Button>
             <Collapse in={option._SELECTED}>

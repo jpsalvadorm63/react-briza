@@ -1,5 +1,4 @@
 // Initial state
-
 const counter0 = 0;
 const calcPadLen = n => n ? ('' + n).length : 1
 const state0 = {
@@ -53,8 +52,30 @@ const login = () => ({type: LOGIN})
 const logout = () => ({type: LOGOUT})
 
 // handlers
-export const handleIncrementCounter = dispatch => (dispatch(incrementCounter()))
-export const handleResetCounter = () => dispatch => (dispatch(resetCounter()))
+const API = {}
+
+API.doomyAsyncCall = (delayMs = 4) => (
+  new Promise((res, rej) => {
+    setTimeout(() => {res({ok:true})}, delayMs)
+  })
+)
+
+const handle = (fn) => (
+  (dispatch) => {
+    return Promise.all([
+      API.doomyAsyncCall(4) //TODO: set tpo 4
+    ]).then(values => {
+      dispatch(fn())
+    })
+  }
+)
+
+export const handleIncrementCounter = () => handle(incrementCounter)
+
+export const handleResetCounter = () => handle(resetCounter)
+
 export const handleSetCounter = (value=counter0) => dispatch => (dispatch(setCounter(value)))
-export const handleLogin = () => dispatch => (dispatch(login()))
-export const handleLogout = () => dispatch => (dispatch(logout()))
+
+export const handleLogin = () => handle(login)
+
+export const handleLogout = () => handle(logout)

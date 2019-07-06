@@ -13,20 +13,28 @@ import MyDrawer from "src/ducks/MainDrawer/Widget"
 import {connect} from "react-redux";
 
 const composition = compose(
-  connect((state) => ({loggedIn: state.storeGVars.loggedIn})),
+  connect((state) => ({
+    loggedIn: state.storeGVars.loggedIn,
+    loginInfo: state.storeLogin.loginInfo
+  })),
   withStyles(styles),
   withRouter
 )
 
-export default composition(({classes, history, loggedIn}) => {
+export default composition(({classes, history, loggedIn, loginInfo}) => {
   const {menuButton, grow} = classes
-  const [open, setOpen] = useState(true) //useState(false)
+  const [open, setOpen] = useState(false)
 
   const iconButtonProps = {
     className: menuButton,
     // color: 'red',
     'aria-label': 'Menu',
-    onClick:() => setOpen(true)
+    onClick:() => {
+      if(loggedIn)
+        setOpen(true)
+      else
+        setOpen(false)
+    }
   }
 
   return (
@@ -57,7 +65,7 @@ export default composition(({classes, history, loggedIn}) => {
           Home
         </Button>
       </Toolbar>
-      <MyDrawer open={open} setOpen={setOpen} />
+      { loggedIn ? <MyDrawer open={open} setOpen={setOpen} /> : null }
     </>
   )
 })

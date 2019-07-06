@@ -5,54 +5,57 @@ const submitBackground = `linear-gradient(45deg, ${elementBG} 45%, ${elementBG2}
 const avatarBoxShadow = `1px 1px 2px 1px ${elementShadow}`
 const elementColor = 'yellow'
 
-const buttonBasis = {
-  background: submitBackground,
-  borderRadius: '8px',
-  color: elementColor,
-}
-
-const helperTextBasic = {
-  fontSize: '0.7rem',
-  fontWeight: 300,
-}
-
 export const styles = theme => ({
   paper: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     padding: `${theme.spacing(2)}px ${theme.spacing(3)}px ${theme.spacing(3)}px`,
-    backgroundColor: "#FFFEF",
     borderRadius: '8px',
+    width: '260px',
   },
+
   avatar: {
-    margin: theme.spacing(1),
+    // margin: theme.spacing(1),
     backgroundColor: 'black',
     color: 'yellow',
     boxShadow: avatarBoxShadow,
+    width: '44px',
+    height: '44px',
+    fontHeight: '0.5rem'
   },
   form: {
     width: '100%', // Fix IE 11 issue.
     marginTop: theme.spacing(1),
   },
-  textField: {
+  gridTextField: {
     marginLeft: '2px',
     marginRight: '2px',
   },
+  textField: {
+    margin: '0',
+    height: '72px',
+  },
   grid: {
     padding: '16px 0',
-    // border:'dotted red 0.2px', // TODO: delete or comment this line
   },
   submit: {
-    ...buttonBasis,
+    background: submitBackground,
+    borderRadius: '8px',
+    color: elementColor,
     width:'80%',
     marginLeft: '10%',
     marginRight: '10%',
     marginTop: '2rem',
   },
-  helperText: { ...helperTextBasic, },
+  helperText: {
+    fontSize: '0.7rem',
+    fontWeight: 300,
+  },
   helperTextError: {
-    ...helperTextBasic,
+    ..._this.helperText,
     color: 'red',
   },
 })
+
+const _this = styles

@@ -1,10 +1,9 @@
 import React from 'react'
-// import componentStyles from "./styles"
-import withStyles from "@material-ui/core/styles/withStyles"
-import {compose} from "redux";
-import {styles} from "../../ducks/Login/styles";
+import componentStyles from "./styles"
+import withStyles from '@material-ui/core/styles/withStyles'
+import {compose} from 'redux'
 
-const composition = compose(withStyles(styles))
+const composition = compose(withStyles(componentStyles))
 
 export default composition(({classes}) => {
   const {container, brand, title} = classes

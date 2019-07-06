@@ -1,7 +1,9 @@
 import React from "react"
 import Avatar from "@material-ui/core/Avatar"
 import Grid from "@material-ui/core/Grid"
-import {Typography} from "@material-ui/core";
+import {Typography} from "@material-ui/core"
+import {graphicByName} from 'src/components/graphics'
+import {shortName} from 'src/common/api'
 
 const grid0Props = (classes) => {
   const styles = {
@@ -15,13 +17,13 @@ const grid0Props = (classes) => {
   })
 }
 
-const avatarProps = (classes) => {
+const avatarProps = (classes, fileName = 'betty') => {
   const styles = {
     root: classes.userInfoAvatar
   }
   return({
-    alt: "otway",
-    src: "otway.svg",
+    alt: fileName,
+    src: graphicByName(fileName),
     classes: styles,
   })
 }
@@ -47,14 +49,18 @@ const grid2Props = (classes) => ({
   item: true,
 })
 
-export default ({drawerContent, classes}) => {
-  const {name, role} = drawerContent.header.userInfo
+export default ({userInfo, classes}) => {
+  const {completeName, roleName} = userInfo
   return(
     <Grid {...grid0Props(classes)}>
-      <Avatar {...avatarProps(classes)}/>
+      <Avatar {...avatarProps(classes, userInfo.photo)}/>
       <Grid {...grid2Props(classes)}>
-        <Typography {...nameProps(classes)}>{name}</Typography>
-        <Typography {...roleProps(classes)}>{role}</Typography>
+        <Typography {...nameProps(classes)}>
+          {shortName(completeName)}
+        </Typography>
+        <Typography {...roleProps(classes)}>
+          {roleName ? roleName: 'no role defined'}
+        </Typography>
       </Grid>
     </Grid>
   )

@@ -1,15 +1,13 @@
-const buttonProps = (clases) => ({
-  type:'submit',
-  variant:'contained',
-  size: 'small',
-})
+import {API} from './api'
 
-export default (
+const props = (
+  loginInfo_,
+  loginInfoFormat_,
+  loggedIn,
   classes,
-  loggedIn = false,
-  onChangeEmail = ()=> console.error('ERROR: LoginForm.onChangeEmail, has not been implemented'),
-  onChangePassword = ()=> console.error('ERROR: LoginForm.onChangePassword, has not been implemented'),
-  login = () => console.error('ERROR: LoginForm.login, has not been implemented'),
+  updateLoginInfo,
+  updateLoginInfoFormat,
+  loginFc,
 ) => ({
   paperProps: {
     classes: {root:classes.paper},
@@ -27,39 +25,74 @@ export default (
   },
   gridItemProps: {
     item: true,
-    classes: {item: classes.textField},
+    classes: {item: classes.gridTextField},
   },
-  buttonLoginProps: {
-    ...buttonProps,
-    classes:{root:classes.submit},
-    onClick: login,
+  formHelperTextProps: {
+    classes:{
+      root: classes.helperText,
+      error: classes.helperTextError,
+    }
   },
   emailFieldProps: {
+    value: loginInfo_.email,
     error: false,
     margin: 'dense',
     autoFocus: true,
-    label: 'Email Address',
+    autoComplete: 'off',
+    label: API.field.emailAddress.caption,
     type: 'email',
     fullWidth: true,
-    helperText:'Please enter a valid email',
+    helperText: loginInfoFormat_.email.format.ok ? '' : loginInfoFormat_.email.format.msg,
     InputProps: {readOnly: loggedIn},
-    classes: {root: classes.helperText},
-    FormHelperTextProps: {
-      classes:{
-        root: classes.helperText,
-        error: classes.helperTextError,
-      }
+    classes: {root: classes.textField},
+    FormHelperTextProps: {..._this.formHelperTextProps},
+    onChange:(e) => {
+      e.preventDefault(loginInfo_)
+      const result = API.updateEmail(e.target.value, loginInfo_)
+      updateLoginInfo(result)
+      updateLoginInfoFormat(API.validateFormats(result))
     },
-    onChange:onChangeEmail,
+  },
+  completeNameFieldProps: {
+    value: loginInfo_.completeName ? loginInfo_.completeName : '*',
+    error: false,
+    margin: 'dense',
+    autoComplete: 'off',
+    label: API.field.completeName.caption,
+    type: 'text',
+    fullWidth: true,
+    InputProps: {readOnly: true},
+    classes: {root: classes.textField},
   },
   passwordFieldProps: {
+    value: loginInfo_.password,
     margin: 'dense',
-    label: 'Password',
+    label: API.field.password.caption,
     type: 'password',
-    autoComplete: 'current-password',
+    autoComplete: 'off',
     fullWidth: true,
-    helperText:"Please ...",
     InputProps: {readOnly: loggedIn},
-    onChange:onChangePassword,
+    classes: {root: classes.textField},
+    helperText: loginInfoFormat_.password.format.ok ? '' : loginInfoFormat_.password.format.res[0].msg,
+    FormHelperTextProps: {..._this.formHelperTextProps},
+    onChange:(e) => {
+      e.preventDefault()
+      const result = API.updatePassword(e.target.value, loginInfo_)
+      updateLoginInfo(result)
+      updateLoginInfoFormat(API.validateFormats(result))
+    },
+  },
+  buttonLoginProps: {
+    variant:'contained',
+    size: 'small',
+    classes: {root:classes.submit},
+    onClick: (e)=> {
+      e.preventDefault()
+      loginFc(loginInfo_)
+    }
   }
 })
+
+const _this = props
+
+export default props

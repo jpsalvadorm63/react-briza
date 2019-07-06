@@ -1,12 +1,13 @@
+//TODO : Remove this file, functionality is going to Login Store
 import API from "./api"
-import {normalizeDrawerContent} from "../../common/api";
-// import {drawerContent} from "./api"
+import {normalizeDrawerContent} from "src/common/api";
+// import {roleMenu} from "./api"
 
 // Initial state
 const componentName = "Drawer"
 const version = 0.1
 const state0 = {
-  drawerContent: API.fetchDrawerContent("mode1"),
+  roleMenu: API.fetchDrawerContent("mode1"),
   ////////////////////////////////////////////////////
   componentInfo: {
     componentName,
@@ -38,7 +39,7 @@ export const reducer = ( state = state0, action ) => {
     case SET_DRAWER_CONTET:
       return {
         ...state,
-        drawerContent: action.drawerContent
+        roleMenu: action.roleMenu
       }
     default :
       return state
@@ -72,47 +73,47 @@ const incrementCounter = () => {
   }
 };
 
-const setDrawerContent = (drawerContent) => {
-  return {
-    type: SET_DRAWER_CONTET,
-    drawerContent:drawerContent,
-  }
-}
+// const setDrawerContent = (drawerContent) => {
+//   return {
+//     type: SET_DRAWER_CONTET,
+//     roleMenu:drawerContent,
+//   }
+// }
 
 // Thunks
 
-export const handleTestAppSignal = () => {
-  return (dispatch) => {
-    return Promise.all([
-      API.fetchComponentSignal(componentName, version, "000001"),
-    ]).then(([signal]) => {
-      dispatch(testComponentSignal(signal))
-    })
-  }
-}
+// export const handleTestAppSignal = () => {
+//   return (dispatch) => {
+//     return Promise.all([
+//       API.fetchComponentSignal(componentName, version, "000001"),
+//     ]).then(([signal]) => {
+//       dispatch(testComponentSignal(signal))
+//     })
+//   }
+// }
+//
+// export const handleIncrementAppCounter = () => {
+//   return (dispatch) => {
+//     dispatch(incrementCounter())
+//   }
+// }
 
-export const handleIncrementAppCounter = () => {
-  return (dispatch) => {
-    dispatch(incrementCounter())
-  }
-}
+// export const handleSetDrawerContent = (mode) => {
+//   return (dispatch) => {
+//     return Promise.all([
+//       API.fetchDrawerContent(mode)
+//     ]).then(([roleMenu]) => {
+//       dispatch(setDrawerContent(normalizeDrawerContent(roleMenu)))
+//     })
+//   }
+// }
 
-export const handleSetDrawerContent = (mode) => {
-  return (dispatch) => {
-    return Promise.all([
-      API.fetchDrawerContent(mode)
-    ]).then(([drawerContent]) => {
-      dispatch(setDrawerContent(normalizeDrawerContent(drawerContent)))
-    })
-  }
-}
-
-export const handleSelectDrawerOption = (drawContent, id, parentId) => {
-  return (dispatch) => {
-    return Promise.all([
-      API.fetchSelectDrawerOption(drawContent, id, parentId)
-    ]).then(([drawerContent]) => {
-      dispatch(setDrawerContent(drawerContent))
-    })
-  }
-}
+// export const handleSelectDrawerOption = (drawContent, id, parentId) => {
+//   return (dispatch) => {
+//     return Promise.all([
+//       API.fetchSelectDrawerOption(drawContent, id, parentId)
+//     ]).then(([drawerContent]) => {
+//       dispatch(setDrawerContent(drawerContent))
+//     })
+//   }
+// }

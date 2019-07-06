@@ -2,15 +2,17 @@ import React from 'react'
 import {compose} from 'redux'
 import {connect} from 'react-redux'
 import MyDrawer from 'src/components/MyDrawer'
-// import JsonViewer from "src/common/JsonViewer"
-// import {UserInfo} from "src/subcomponents/UserInfo"
-import {handleSelectDrawerOption} from "./store"
+import {normalizeDrawerContent} from 'src/common/api'
+import {handleSelectRoleMenuOption} from 'src/ducks/Login/store'
 
-const Widget = (props) => {
-  const {dispatch, open, setOpen, classes, drawerContent} = props
+const composition = compose(
+  connect((state) => ({
+    roleMenu: normalizeDrawerContent(state.storeLogin.loginInfo.roleMenu),
+    userInfo: state.storeLogin.loginInfo
+  })),
+)
 
-  const userInfo = () => ("user info") //<UserInfo/>
-
+export default composition( ({dispatch, open, setOpen, userInfo, roleMenu, classes, } ) => {
   const close = () => setOpen(false)
 
   const selectOption = (id, parentId, action) => {
@@ -20,28 +22,17 @@ const Widget = (props) => {
     // } else {
     //   console.log("===> 1",id, parentId)
     // }
-    dispatch(handleSelectDrawerOption(drawerContent, id, parentId))
+    dispatch(handleSelectRoleMenuOption(roleMenu, id, parentId))
   }
 
   const drawerProps = {
     classes,
-    drawerContent,
+    drawerContent: roleMenu,
     selectOption,
     open,
     userInfo,
     close,
   }
 
-  return (
-    <>
-      <MyDrawer {...drawerProps} />
-      {/*<JsonViewer json={drawerContent} />*/}
-    </>
-  )
-}
-
-const composition = compose(
-  connect((state) => ({...state.storeDrawer})),
-)
-
-export default composition(Widget)
+  return <MyDrawer {...drawerProps} />
+})

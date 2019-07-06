@@ -1,6 +1,6 @@
 import React from "react"
 import Button from "@material-ui/core/Button"
-import {InconByName} from "../../../ducks/MainDrawer/icons"
+import {IconByName} from "../../graphics/icons"
 
 const buttonProps = (_ID, parentId, _SELECTED, selectOption, action, classes) => {
   return {
@@ -37,9 +37,9 @@ export default ({items, selectOption, parentId, close, classes}) =>
     .map(({_ID, label, icon, colors, _SELECTED, action}, i) => {
       return (
         <Button {...buttonProps(_ID, parentId, _SELECTED, selectOption, action, classes)}>
-          <InconByName {...iconByNameProps(icon, classes, colors)} />
+          <IconByName {...iconByNameProps(icon, classes, colors)} />
           {label}
-          {_SELECTED ? <InconByName {...iconByNameRightProps(classes)} /> : null}
+          {_SELECTED ? <IconByName {...iconByNameRightProps(classes)} /> : null}
         </Button>
       )
     })

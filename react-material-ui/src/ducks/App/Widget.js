@@ -7,7 +7,7 @@ import {connect} from 'react-redux'
 import {compose} from 'redux'
 
 const composition = compose(
-  connect((state) => ({...state.storeRoutes})),
+  connect((state) => ({...state.storeRoutes,})),
 )
 
 export default composition( ({basicRoutes, roleRoutes}) => {
