@@ -15,8 +15,7 @@ git add .
 
 or
 
-
-
+git add -u
 
 git commit -m "firt commit"
 

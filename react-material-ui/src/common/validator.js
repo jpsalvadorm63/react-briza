@@ -46,7 +46,7 @@ export const validatorMessage = (fieldName) => ({
   isArray:     (ok) => ok ? '' : `${fieldName} cannot be an array`,
   spaces:      (ok) => ok ? '' : `${fieldName} cannot contain spaces`,
   isReactObj:  (ok) => ok ? '' : `${fieldName} cannot be a React object`,
-  isMail:      (ok) => ok ? '' : `${fieldName} cannot be an email`,
+  isMail:      (ok) => ok ? '' : `${fieldName} is not a valid email`,
   gOrEq8:      (ok) => ok ? '' : `${fieldName} must be 8 chars or more`,
   lOrEq20:     (ok) => ok ? '' : `${fieldName} must be less than 20 chars`,
   atLeast1cap: (ok) => ok ? '' : '...at least 1 Capital char required',

@@ -3,7 +3,7 @@ import withStyles from '@material-ui/core/styles/withStyles'
 import {compose} from 'redux'
 import {connect} from 'react-redux'
 import Parallax from 'src/components/Parallax'
-import ProductBrand from "src/components/ProducBrand/Widget"
+import ProductBrand from "src/components/ProductBrand/Widget"
 import {loginGridStyles} from "./styles"
 import {bgStyle} from "src/common/api"
 import LoginForm from './subcomponents/LoginForm/Widget'

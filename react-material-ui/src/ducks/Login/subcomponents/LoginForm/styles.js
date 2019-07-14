@@ -1,9 +1,6 @@
-const elementBG = '#333333'
-const elementBG2 = '#898989'
-const elementShadow = 'rgba(44, 44, 44, .2)'
-const submitBackground = `linear-gradient(45deg, ${elementBG} 45%, ${elementBG2} 90%)`
-const avatarBoxShadow = `1px 1px 2px 1px ${elementShadow}`
-const elementColor = 'yellow'
+import {yellow, grey} from "@material-ui/core/colors";
+import {AvatarByIconName} from "../../../../components/Avatars";
+import React from "react";
 
 export const styles = theme => ({
   paper: {
@@ -13,16 +10,6 @@ export const styles = theme => ({
     padding: `${theme.spacing(2)}px ${theme.spacing(3)}px ${theme.spacing(3)}px`,
     borderRadius: '8px',
     width: '260px',
-  },
-
-  avatar: {
-    // margin: theme.spacing(1),
-    backgroundColor: 'black',
-    color: 'yellow',
-    boxShadow: avatarBoxShadow,
-    width: '44px',
-    height: '44px',
-    fontHeight: '0.5rem'
   },
   form: {
     width: '100%', // Fix IE 11 issue.
@@ -39,23 +26,30 @@ export const styles = theme => ({
   grid: {
     padding: '16px 0',
   },
+  helperTextError: {
+    fontSize: '0.7rem',
+    fontWeight: 300,
+    color: 'red',
+  },
   submit: {
-    background: submitBackground,
+    background: `linear-gradient(45deg, ${grey[900]} 55%, ${grey[500]} 90%)`,
+    color: yellow[500],
     borderRadius: '8px',
-    color: elementColor,
     width:'80%',
     marginLeft: '10%',
     marginRight: '10%',
     marginTop: '2rem',
   },
-  helperText: {
-    fontSize: '0.7rem',
-    fontWeight: 300,
+  avatarRoot:{
+    width: '2.8rem',
+    height: '2.8rem',
+    background: `linear-gradient(45deg, ${grey[800]} 35%, ${grey[500]} 70%)`,
+    backgroundColor: grey[900],
+    color: yellow[500],
   },
-  helperTextError: {
-    ..._this.helperText,
-    color: 'red',
-  },
+  avatarIcon: {
+    fontSize: '1.8rem',
+  }
 })
 
 const _this = styles

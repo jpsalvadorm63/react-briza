@@ -10,30 +10,30 @@ const menusTable = [
         {
           label: 'CPU',
           items : [
-            {label: 'Add CPU', icon: 'cpu', colors: 'Red',},
-            {label: 'Remove CPU', icon: 'remove', colors: 'Green',},
-            {label: 'Usage',icon: 'usage', colors: 'Blue',}
+            {label: 'Add CPU', icon: 'cpu', color: 'red',},
+            {label: 'Remove CPU', icon: 'remove', color: 'green',},
+            {label: 'Usage',icon: 'usage', color: 'blue',}
           ]
         },
         {
           label: 'Memory',
           items : [
-            {label: 'Add Memory', icon: 'memory', colors: 'Blue',},
-            {label: 'Usage', icon: 'usage', colors: 'Green',}
+            {label: 'Add Memory', icon: 'memory', color: 'blue',},
+            {label: 'Usage', icon: 'usage', color: 'green',}
           ]
         },
         {
           label: 'Storage',
           items : [
-            {label: 'Add Storage', icon: 'storage', colors: 'Orange',},
-            {label: 'Usage', icon: 'usage', colors: 'Blue',},
+            {label: 'Add Storage', icon: 'storage', color: 'orange',},
+            {label: 'Usage', icon: 'usage', color: 'blue',},
           ]
         },
         {
           label: 'Network',
           items : [
-            {label: 'Add Network', icon: 'network', colors: 'Green',},
-            {label: 'Usage', icon: 'networkUsage', colors: 'Red',},
+            {label: 'Add Network', icon: 'network', color: 'green',},
+            {label: 'Usage', icon: 'networkUsage', color: 'red',},
           ]
         },
       ]
@@ -48,22 +48,22 @@ const menusTable = [
         {
           label: 'Memory',
           items : [
-            {label: 'Add Memory', icon: 'memory', colors: 'Blue',},
-            {label: 'Usage', icon: 'usage', colors: 'Green',}
+            {label: 'Add Memory', icon: 'memory', color: 'blue',},
+            {label: 'Usage', icon: 'usage', color: 'green',}
           ]
         },
         {
           label: 'Storage',
           items : [
-            {label: 'Add Storage', icon: 'storage', colors: 'Orange',},
-            {label: 'Usage', icon: 'usage', colors: 'Blue',},
+            {label: 'Add Storage', icon: 'storage', color: 'orange',},
+            {label: 'Usage', icon: 'usage', color: 'blue',},
           ]
         },
         {
           label: 'Network',
           items : [
-            {label: 'Add Network', icon: 'network', colors: 'Green',},
-            {label: 'Usage', icon: 'networkUsage', colors: 'Red',},
+            {label: 'Add Network', icon: 'network', color: 'green',},
+            {label: 'Usage', icon: 'networkUsage', color: 'red',},
           ]
         },
       ]
@@ -78,10 +78,10 @@ const menusTable = [
         {
           label: 'System',
           items : [
-            { label: 'CPU', icon: 'cpu', colors: 'Red', },
-            { label: 'Memory', icon: 'memory', colors: 'Green', },
-            { label: 'Storage', icon: 'storage', colors: 'Blue', },
-            { label: 'Network', icon:'network', colors: 'Black', },
+            { label: 'CPU', icon: 'cpu', color: 'red', },
+            { label: 'Memory', icon: 'memory', color: 'green', },
+            { label: 'Storage', icon: 'storage', color: 'blue', },
+            { label: 'Network', icon:'network', color: 'black', },
           ]
         },
       ]

@@ -5,9 +5,9 @@ export const API = {}
 const _API = API
 
 API.field = {
-  emailAddress: {caption:'Email Address'},
-  password: {caption:'Password'},
-  completeName: {caption:'User Name'},
+  emailAddress: {label:'Email Address'},
+  password: {label:'Password'},
+  completeName: {label:'User Name'},
 }
 
 API.updateEmail = (email, loginInfo) => (

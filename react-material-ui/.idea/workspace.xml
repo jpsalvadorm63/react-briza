@@ -1,64 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/components/MyDrawer/Widget.js" line="39" />
+    <bookmark url="file://$PROJECT_DIR$/src/components/MyDrawer/Widget.js" line="54" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b099dfa7-4212-4ff1-93f4-b7b302075afb" name="Default" comment="Improved styles">
-      <change afterPath="$PROJECT_DIR$/../myredux/.idea/myredux.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__TEMPO/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Avatars/Widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Message/Widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Message/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Message/props.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Message/subcomponents/ErrorMessage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/graphics/graphicFiles/beer01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/graphics/graphicFiles/betty.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/graphics/graphicFiles/negrita.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/graphics/graphicFiles/peliroja.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/graphics/graphics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/graphics/icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/graphics/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ducks/Login/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ducks/Login/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/menus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/roles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react_redux/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Avatars/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FieldsAndButtons/Fields.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FieldsAndButtons/SubmitButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/otway.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/graphics/graphicFiles/otway.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/planta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/graphics/graphicFiles/planta.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/gvars/frost.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/gvars/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/gvars/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/routes/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/routes/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GIT-COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/GIT-COMMANDS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Avatars/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Avatars/Widget.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MyDrawer/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyDrawer/Widget.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MyDrawer/components/MainOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyDrawer/components/MainOptions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MyDrawer/components/SubOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyDrawer/components/SubOptions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MyDrawer/components/UserInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyDrawer/components/UserInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyDrawer/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyDrawer/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Parallax/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Parallax/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProducBrand/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProducBrand/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/App/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/App/Widget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyDrawer/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProducBrand/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductBrand/Widget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProducBrand/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductBrand/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/graphics/icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/graphics/icons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ducks/Landing/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/Landing/Widget.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ducks/Login/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/Login/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/Login/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/Login/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/Widget.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/props.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/props.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/MainDrawer/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/MainDrawer/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/MainDrawer/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/MainDrawer/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/MainDrawer/icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/MainDrawer/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/MainDrawer/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/TopToolBar/Widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/TopToolBar/Widget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/menus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/menus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react_mdl" beforeDir="false" afterPath="$PROJECT_DIR$/../react_mdl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react_redux/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react_redux/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,65 +40,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Avatars/Widget.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#0#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ducks/Login/styles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/Widget.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/props.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="18" column="4" selection-start-line="15" selection-start-column="2" selection-end-line="18" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/graphics/icons.js">
+        <entry file="file://$PROJECT_DIR$/src/components/MyDrawer/components/SubOptions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+            <state relative-caret-position="204">
+              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/styles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -146,36 +64,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>updateLoginInfo</find>
-      <find>console.log</find>
-      <find>console</find>
-      <find>SS</find>
-      <find>email address or</find>
-      <find>321</find>
-      <find>322</find>
-      <find>frost</find>
-      <find>handleLogin</find>
-      <find>Logged</find>
-      <find>CPU</find>
-      <find>0021</find>
-      <find>0821</find>
-      <find>0321</find>
-      <find>normalizeDrawerContent</find>
-      <find>handleUserLogin</find>
-      <find>InconByName</find>
-      <find>IconByName</find>
-      <find>0421</find>
-      <find>0027</find>
-      <find>planta.svg</find>
-      <find>pap</find>
-      <find>0011</find>
-      <find>0051</find>
-      <find>split</find>
-      <find>0121</find>
-      <find>01</find>
-      <find>0071</find>
-      <find>&lt;Login</find>
+      <find>optionBase</find>
+      <find>iconStyleBase2</find>
+      <find>subOptionBase</find>
+      <find>4021</find>
+      <find>subOption</find>
+      <find>subOPtionLabel</find>
       <find>makeStyles</find>
+      <find>styles = theme</find>
+      <find>styles</find>
+      <find>mainOptionLabel</find>
+      <find>compose</find>
+      <find>Component</find>
+      <find>mainOption</find>
+      <find>paper</find>
+      <find>withStyles</find>
+      <find>buttonLoginProps</find>
+      <find>gradient</find>
+      <find>loginFc</find>
+      <find>_this</find>
+      <find>emailFieldProps</find>
+      <find>loginInfoFormat</find>
+      <find>formHelperTextProps</find>
+      <find>getProps</find>
+      <find>AvatarByIconName</find>
+      <find>API</find>
+      <find>logi</find>
+      <find>updateInfo</find>
+      <find>submitBackground</find>
+      <find>avatarRoot</find>
+      <find>iconByNameRightProps</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -187,11 +105,12 @@
       <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui</dir>
       <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui\src\ducks\MyDrawer</dir>
       <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui\src\ducks\MainDrawer</dir>
-      <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui\src\components</dir>
       <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui\src\ducks\Login</dir>
-      <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui\src\ducks</dir>
-      <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui\src\components\MyDrawer</dir>
       <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui\build\static</dir>
+      <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui\src\components\MyDrawer\components</dir>
+      <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui\src\ducks</dir>
+      <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui\src\components</dir>
+      <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui\src\components\MyDrawer</dir>
       <dir>C:\OptimGeek\DEMOS\MDL\react-material-ui\src</dir>
     </dirStrings>
   </component>
@@ -201,57 +120,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/LoginForm.js" />
-        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/index.js" />
-        <option value="$PROJECT_DIR$/src/components/MyDrawer/components/SubOptions.js" />
-        <option value="$PROJECT_DIR$/src/common/routes/store.js" />
-        <option value="$PROJECT_DIR$/src/common/validator.js" />
-        <option value="$PROJECT_DIR$/src/common/server.js" />
-        <option value="$PROJECT_DIR$/src/components/mockServer/server.js" />
-        <option value="$PROJECT_DIR$/src/components/mockServer/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Message/SimpleMessage.js" />
-        <option value="$PROJECT_DIR$/src/components/Message/props.js" />
         <option value="$PROJECT_DIR$/src/components/mockServer/users.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/ducks/App/Widget.js" />
         <option value="$PROJECT_DIR$/src/ducks/TopToolBar/Widget.js" />
         <option value="$PROJECT_DIR$/src/components/Parallax/Widget.js" />
-        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/props.js" />
         <option value="$PROJECT_DIR$/src/reducers.js" />
         <option value="$PROJECT_DIR$/src/ducks/Login/api.js" />
         <option value="$PROJECT_DIR$/src/ducks/MainDrawer/store.js" />
         <option value="$PROJECT_DIR$/src/ducks/MainDrawer/api.js" />
         <option value="$PROJECT_DIR$/src/ducks/MainDrawer/icons.js" />
         <option value="$PROJECT_DIR$/src/common/icons/index.js" />
-        <option value="$PROJECT_DIR$/src/components/MyDrawer/components/MainOptions.js" />
-        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/api.js" />
         <option value="$PROJECT_DIR$/src/common/gvars/store.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/server/index.js" />
         <option value="$PROJECT_DIR$/src/common/api.js" />
         <option value="$PROJECT_DIR$/src/components/icons/icons.js" />
         <option value="$PROJECT_DIR$/src/components/icons/index.js" />
         <option value="$PROJECT_DIR$/src/components/icons/graphics.js" />
         <option value="$PROJECT_DIR$/src/ducks/Login/store.js" />
-        <option value="$PROJECT_DIR$/src/server/menus.js" />
         <option value="$PROJECT_DIR$/src/__TEMPO/test.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/Message/index.js" />
         <option value="$PROJECT_DIR$/src/components/Message/Widget.js" />
-        <option value="$PROJECT_DIR$/src/components/MyDrawer/styles.js" />
         <option value="$PROJECT_DIR$/src/ducks/MainDrawer/Widget.js" />
         <option value="$PROJECT_DIR$/src/server/users.js" />
-        <option value="$PROJECT_DIR$/src/components/MyDrawer/Widget.js" />
-        <option value="$PROJECT_DIR$/src/components/MyDrawer/components/UserInfo.js" />
         <option value="$PROJECT_DIR$/src/ducks/Login/styles.js" />
         <option value="$PROJECT_DIR$/src/components/ProducBrand/Widget.js" />
         <option value="$PROJECT_DIR$/src/ducks/Login/Widget.js" />
-        <option value="$PROJECT_DIR$/src/components/graphics/icons.js" />
-        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/styles.js" />
         <option value="$PROJECT_DIR$/src/components/Message/subcomponents/ErrorMessage.js" />
         <option value="$PROJECT_DIR$/src/server/roles.js" />
+        <option value="$PROJECT_DIR$/GIT-COMMANDS.md" />
+        <option value="$PROJECT_DIR$/src/common/validator.js" />
+        <option value="$PROJECT_DIR$/src/components/Avatars/index.js" />
+        <option value="$PROJECT_DIR$/src/server/menus.js" />
+        <option value="$PROJECT_DIR$/src/components/MyDrawer/components/UserInfo.js" />
+        <option value="$PROJECT_DIR$/src/components/MyDrawer/styles.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/FreeFormatField.js" />
+        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/TextFields.js" />
+        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/props.js" />
+        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/EmailField.js" />
+        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/Fields.js" />
+        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/api.js" />
+        <option value="$PROJECT_DIR$/src/components/Fields/Fields.js" />
+        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/SubmitButton.js" />
+        <option value="$PROJECT_DIR$/src/components/MyDrawer/Widget.js" />
+        <option value="$PROJECT_DIR$/src/components/graphics/icons.js" />
         <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/Widget.js" />
         <option value="$PROJECT_DIR$/src/components/Avatars/Widget.js" />
+        <option value="$PROJECT_DIR$/src/components/MyDrawer/components/MainOptions.js" />
+        <option value="$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/styles.js" />
+        <option value="$PROJECT_DIR$/src/components/MyDrawer/components/SubOptions.js" />
       </list>
     </option>
   </component>
@@ -292,35 +211,6 @@
               <item name="react-material-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Avatars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-material-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="graphics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-material-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-material-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Message" type="462c0819:PsiDirectoryNode" />
-              <item name="subcomponents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-material-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ducks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,30 +218,7 @@
               <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ducks" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-material-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ducks" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-              <item name="subcomponents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-material-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ducks" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-              <item name="subcomponents" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginForm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-material-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-material-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="MainDrawer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -385,19 +252,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\components\icons\graphics" />
-      <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\components" />
-      <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\common\icons" />
-      <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\common" />
-      <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\components\icons\graphics" />
       <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\ducks\Login\subcomponents\LoginForm" />
       <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\common\gvars" />
       <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\ducks\App\assets" />
       <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\components\FieldsAndButtons" />
+      <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\components\Fields" />
+      <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\components\icons\graphics" />
+      <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\components" />
+      <recent name="C:\OptimGeek\DEMOS\MDL\react-material-ui\src\common\icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -546,7 +413,13 @@
       <workItem from="1562244484372" duration="5345000" />
       <workItem from="1562317062590" duration="23384000" />
       <workItem from="1562365997159" duration="7533000" />
-      <workItem from="1562399182632" duration="6904000" />
+      <workItem from="1562399182632" duration="7222000" />
+      <workItem from="1562534688494" duration="18099000" />
+      <workItem from="1562588332670" duration="32431000" />
+      <workItem from="1562680067365" duration="40336000" />
+      <workItem from="1562878932280" duration="32546000" />
+      <workItem from="1563031908858" duration="3792000" />
+      <workItem from="1563046852626" duration="29331000" />
     </task>
     <task id="LOCAL-00001" summary="Improved styles">
       <created>1560864278552</created>
@@ -559,13 +432,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1251696000" />
+    <option name="totallyTimeSpent" value="1408549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1294" height="694" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18695307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1734288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -577,7 +449,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49164677" visible="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49164677" visible="true" weight="0.2241993" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50835323" side_tool="true" weight="0.27402136" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3291815" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
@@ -615,107 +487,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Improved styles" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/Landing/Widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/App/Widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/TopToolBar/Widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Parallax/Widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/MainDrawer/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-747">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/MainDrawer/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/gvars/store.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/routesIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/planta.svg" />
-    <entry file="file://$PROJECT_DIR$/src/components/graphics/graphicFiles/otway.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/graphics/graphicFiles/planta.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/graphics/graphicFiles/peliroja.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/graphics/graphicFiles/negrita.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -778,13 +549,6 @@
     <entry file="file://$PROJECT_DIR$/src/ui/theme/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyDrawer/components/MainOptions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Message/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -819,30 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="110" column="25" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyDrawer/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="144" column="17" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/menus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -850,32 +590,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyDrawer/Widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyDrawer/components/UserInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProducBrand/styles.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ProductBrand/styles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProducBrand/Widget.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ProductBrand/Widget.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
@@ -892,33 +612,6 @@
           <folding>
             <element signature="e#0#64#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/graphics/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/Login/Widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -939,30 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/Login/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/Widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/props.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="18" column="4" selection-start-line="15" selection-start-column="2" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Message/subcomponents/ErrorMessage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -973,20 +642,232 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Avatars/Widget.js">
+    <entry file="file://$PROJECT_DIR$/GIT-COMMANDS.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="191">
+            <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/graphics/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#0#65#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Parallax/Widget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/gvars/store.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Avatars/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Parallax/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/menus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyDrawer/components/UserInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyDrawer/styles.js" />
+    <entry file="file://$PROJECT_DIR$/STEPS.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-591" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.65a27cf7.chunk.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/EmailField.js" />
+    <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/props.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-686">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FieldsAndButtons/Fields.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="79" column="68" lean-forward="true" selection-start-line="79" selection-start-column="68" selection-end-line="79" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FieldsAndButtons/SubmitButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyDrawer/Widget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ducks/Login/Widget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ducks/Login/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/graphics/icons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+        <state relative-caret-position="-108">
+          <caret line="13" column="62" lean-forward="true" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Avatars/Widget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/Widget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="43" column="71" lean-forward="true" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyDrawer/components/MainOptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ducks/Login/subcomponents/LoginForm/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyDrawer/components/SubOptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
